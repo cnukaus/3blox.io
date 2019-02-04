@@ -5,10 +5,12 @@ export default function(state, action) {
     case SEARCH:
       return {amount: state.amount + action.amount}
     case GET_RELAYERS:
+      console.log('get relayers')
       return {loading: true}
     case RELAYERS_RECEIVED:
+      console.log('relayers received')
       return {loading: false, relayers: action.relayers}
     default:
-      return state
+      return {}
   }
 }
