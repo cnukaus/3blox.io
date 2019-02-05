@@ -1,26 +1,25 @@
-import {assetDataUtils} from '@0x/order-utils'
-import {AssetProxyId} from '@0x/types'
-import relayers from './relayers.json'
-import requestAssetPairs from './assetPairs'
-import async from 'async'
-import axios from 'axios'
+const async = require('async')
+const axios = require('axios')
+const fs = require('fs');
+const assetDataUtils = require('@0x/order-utils').assetDataUtils
+const AssetProxyId = require('@0x/types').AssetProxyId
+const relayers = require('../relayers.json')
 
-export const SEARCH = 'SEARCH'
-export const GET_RELAYERS = 'GET_REPLAYERs'
-export const RELAYERS_RECEIVED = 'RELAYERS_RECEIVED'
+const WETH_ADDRESS_SUFFIX = '2aaa39b223fe8d0a0e5c4f27ead9083c756cc2'
 
-const relayersRequestSent = () => ({type: GET_RELAYERS})
-const relayersReceived = (relayers) => {
+function requestAssetPairs(endPoint) {
+  return axios.get(endPoint + (endPoint.endsWith('/') ? '' : '/') + 'asset_pairs?page=1&perPage=1000')
+}
+
+function getAssets(relayers) {
   let assets = {}
-  let validRelayers = []
   async.eachOfSeries(relayers, function (relayer, key, next) {
       console.log(relayer)
       requestAssetPairs(relayer.sra_http_endpoint).then((response) => {
         if (response.data && response.data.records) {
           console.log(relayer.sra_http_endpoint)
           response.data.records.forEach((record) => {
-            if (record.assetDataA.assetData.toLowerCase().endsWith('2aaa39b223fe8d0a0e5c4f27ead9083c756cc2')) {
-              //console.log('B', assetDataUtils.decodeERC20AssetData(record.assetDataB.assetData))
+            if (record.assetDataA.assetData.toLowerCase().endsWith(WETH_ADDRESS_SUFFIX)) {
               if (!assets[record.assetDataB.assetData]) {
                 assets[record.assetDataB.assetData] = record.assetDataB
               }
@@ -28,7 +27,7 @@ const relayersReceived = (relayers) => {
                 assets[record.assetDataB.assetData].relayers = []
               }
               assets[record.assetDataB.assetData].relayers.push(relayer.sra_http_endpoint)
-            } else if (record.assetDataB.assetData.toLowerCase().endsWith('2aaa39b223fe8d0a0e5c4f27ead9083c756cc2')) {
+            } else if (record.assetDataB.assetData.toLowerCase().endsWith(WETH_ADDRESS_SUFFIX)) {
               if (!assets[record.assetDataA.assetData]) {
                 assets[record.assetDataA.assetData] = record.assetDataA
               }
@@ -43,11 +42,11 @@ const relayersReceived = (relayers) => {
       })
     },
     function () {
-      async.eachOfSeries(assets, function(value, key, next) {
+      async.eachOfSeries(assets, function (value, key, next) {
         let tokenAddress
-        if(key.startsWith(AssetProxyId.ERC20)) {
+        if (key.startsWith(AssetProxyId.ERC20)) {
           tokenAddress = assetDataUtils.decodeERC20AssetData(key).tokenAddress
-        } else if(key.startsWith(AssetProxyId.ERC721)) {
+        } else if (key.startsWith(AssetProxyId.ERC721)) {
           tokenAddress = assetDataUtils.decodeERC721AssetData(key).tokenAddress
         }
         if (tokenAddress) {
@@ -64,17 +63,19 @@ const relayersReceived = (relayers) => {
         } else {
           next()
         }
-      }, function() {
-        console.log(JSON.stringify(assets))
+      }, function () {
+        const a = []
+        for (let key in assets) {
+          a.push(assets[key])
+        }
+        a.sort(function(assetA, assetB) { return assetA.symbol - assetB.symbol})
+        fs.writeFile('src/assets.json', JSON.stringify(a), function(err) {
+          if (err) console.log(err)
+          else console.log('Done!')
+        })
       })
-    })
-
-  return {type: RELAYERS_RECEIVED, relayers: validRelayers}
+    }
+  )
 }
 
-export function getRelayers() {
-  return (dispatch) => {
-    dispatch(relayersRequestSent())
-    dispatch(relayersReceived(relayers))
-  }
-}
+getAssets(relayers)
