@@ -9,7 +9,9 @@
       "https://api.openrelay.xyz/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "DAI"
+    "symbol": "DAI",
+    "name": "DAI",
+    "address": "0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359"
   },
   {
     "assetData": "0xf47261b000000000000000000000000001b3ec4aae1b8729529beb4965f27d008788b0eb",
@@ -20,7 +22,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "DPP"
+    "symbol": "DPP",
+    "name": "DA Power Play Token",
+    "address": "0x01b3ec4aae1b8729529beb4965f27d008788b0eb"
   },
   {
     "assetData": "0xf47261b00000000000000000000000000200412995f1bafef0d3f97c4e28ac2515ec1ece",
@@ -31,7 +35,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "FLLW"
+    "symbol": "FLLW",
+    "name": "FollowCoin",
+    "address": "0x0200412995f1bafef0d3f97c4e28ac2515ec1ece"
   },
   {
     "assetData": "0xf47261b000000000000000000000000002ec0c9e6d3c08b8fb12fec51ccba048afbc36a6",
@@ -42,7 +48,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "STBL"
+    "symbol": "STBL",
+    "name": "Stable Set",
+    "address": "0x02ec0c9e6d3c08b8fb12fec51ccba048afbc36a6"
   },
   {
     "assetData": "0xf47261b00000000000000000000000000371a82e4a9d0a4312f3ee2ac9c6958512891372",
@@ -53,7 +61,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "STU"
+    "symbol": "STU",
+    "name": "bitjob",
+    "address": "0x0371a82e4a9d0a4312f3ee2ac9c6958512891372"
   },
   {
     "assetData": "0xf47261b000000000000000000000000005f4a42e251f2d52b8ed15e9fedaacfcef1fad27",
@@ -64,7 +74,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "ZIL"
+    "symbol": "ZIL",
+    "name": "Zilliqa",
+    "address": "0x05f4a42e251f2d52b8ed15e9fedaacfcef1fad27"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000076c97e1c869072ee22f8c91978c99b4bcb02591",
@@ -75,7 +87,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "CBT"
+    "symbol": "CBT",
+    "name": "CommerceBlock Token",
+    "address": "0x076c97e1c869072ee22f8c91978c99b4bcb02591"
   },
   {
     "assetData": "0xf47261b000000000000000000000000008711d3b02c8758f2fb3ab4e80228418a7f8e39c",
@@ -86,7 +100,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "EDG"
+    "symbol": "EDG",
+    "name": "Edgeless",
+    "address": "0x08711d3b02c8758f2fb3ab4e80228418a7f8e39c"
   },
   {
     "assetData": "0xf47261b000000000000000000000000009d8b66c48424324b25754a873e290cae5dca439",
@@ -97,7 +113,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "NVT"
+    "symbol": "NVT",
+    "name": "Nova Token",
+    "address": "0x09d8b66c48424324b25754a873e290cae5dca439"
   },
   {
     "assetData": "0xf47261b00000000000000000000000000abdace70d3790235af448c88547603b945604ea",
@@ -108,7 +126,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "DNT"
+    "symbol": "DNT",
+    "name": "district0x Network Token",
+    "address": "0x0abdace70d3790235af448c88547603b945604ea"
   },
   {
     "assetData": "0xf47261b00000000000000000000000000cf0ee63788a0849fe5297f3407f701e122cc023",
@@ -119,7 +139,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "DATA"
+    "symbol": "DATA",
+    "name": "Streamr DATAcoin",
+    "address": "0x0cf0ee63788a0849fe5297f3407f701e122cc023"
   },
   {
     "assetData": "0xf47261b00000000000000000000000000d8775f648430679a709e98d2b0cb6250d2887ef",
@@ -130,7 +152,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "BAT"
+    "symbol": "BAT",
+    "name": "Basic Attention Token",
+    "address": "0x0d8775f648430679a709e98d2b0cb6250d2887ef"
   },
   {
     "assetData": "0xf47261b00000000000000000000000000e0989b1f9b8a38983c2ba8053269ca62ec9b195",
@@ -141,7 +165,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "POE"
+    "symbol": "POE",
+    "name": "Po.et",
+    "address": "0x0e0989b1f9b8a38983c2ba8053269ca62ec9b195"
   },
   {
     "assetData": "0xf47261b00000000000000000000000000f513ffb4926ff82d7f60a05069047aca295c413",
@@ -152,7 +178,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "XSC"
+    "symbol": "XSC",
+    "name": "CrowdstartCoin",
+    "address": "0x0f513ffb4926ff82d7f60a05069047aca295c413"
   },
   {
     "assetData": "0xf47261b00000000000000000000000000f5d2fb29fb7d3cfee444a200298f468908cc942",
@@ -163,7 +191,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "MANA"
+    "symbol": "MANA",
+    "name": "Decentraland",
+    "address": "0x0f5d2fb29fb7d3cfee444a200298f468908cc942"
   },
   {
     "assetData": "0xf47261b00000000000000000000000001063ce524265d5a3a624f4914acd573dd89ce988",
@@ -174,7 +204,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "AIX"
+    "symbol": "AIX",
+    "name": "Aigang",
+    "address": "0x1063ce524265d5a3a624f4914acd573dd89ce988"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000106aa49295b525fcf959aa75ec3f7dcbf5352f1c",
@@ -185,7 +217,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "RKT"
+    "symbol": "RKT",
+    "name": "Rock Token",
+    "address": "0x106aa49295b525fcf959aa75ec3f7dcbf5352f1c"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000107c4504cd79c5d2696ea0030a8dd4e92601b82e",
@@ -196,7 +230,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "BLT"
+    "symbol": "BLT",
+    "name": "Bloom Token",
+    "address": "0x107c4504cd79c5d2696ea0030a8dd4e92601b82e"
   },
   {
     "assetData": "0xf47261b00000000000000000000000001183f92a5624d68e85ffb9170f16bf0443b4c242",
@@ -207,7 +243,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "QVT"
+    "symbol": "QVT",
+    "name": "QVT",
+    "address": "0x1183f92a5624d68e85ffb9170f16bf0443b4c242"
   },
   {
     "assetData": "0xf47261b000000000000000000000000012480e24eb5bec1a9d4369cab6a80cad3c0a377a",
@@ -218,7 +256,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "SUB"
+    "symbol": "SUB",
+    "name": "Substratum",
+    "address": "0x12480e24eb5bec1a9d4369cab6a80cad3c0a377a"
   },
   {
     "assetData": "0xf47261b000000000000000000000000012b19d3e2ccc14da04fae33e63652ce469b3f2fd",
@@ -229,7 +269,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "GRID"
+    "symbol": "GRID",
+    "name": "GRID Token",
+    "address": "0x12b19d3e2ccc14da04fae33e63652ce469b3f2fd"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000168296bb09e24a88805cb9c33356536b980d3fc5",
@@ -240,7 +282,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "RHOC"
+    "symbol": "RHOC",
+    "name": "RHOC",
+    "address": "0x168296bb09e24a88805cb9c33356536b980d3fc5"
   },
   {
     "assetData": "0xf47261b00000000000000000000000001776e1f26f98b1a5df9cd347953a26dd3cb46671",
@@ -251,7 +295,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "NMR"
+    "symbol": "NMR",
+    "name": "Numeraire",
+    "address": "0x1776e1f26f98b1a5df9cd347953a26dd3cb46671"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000177d39ac676ed1c67a2b268ad7f1e58826e5b0af",
@@ -262,7 +308,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "CDT"
+    "symbol": "CDT",
+    "name": "CoinDash Token",
+    "address": "0x177d39ac676ed1c67a2b268ad7f1e58826e5b0af"
   },
   {
     "assetData": "0xf47261b00000000000000000000000001985365e9f78359a9b6ad760e32412f4a445e862",
@@ -273,7 +321,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "REP"
+    "symbol": "REP",
+    "name": "Reputation",
+    "address": "0x1985365e9f78359a9b6ad760e32412f4a445e862"
   },
   {
     "assetData": "0xf47261b00000000000000000000000001d462414fe14cf489c7a21cac78509f4bf8cd7c0",
@@ -284,7 +334,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "CAN"
+    "symbol": "CAN",
+    "name": "CanYaCoin",
+    "address": "0x1d462414fe14cf489c7a21cac78509f4bf8cd7c0"
   },
   {
     "assetData": "0xf47261b00000000000000000000000001f573d6fb3f13d689ff844b4ce37794d79a7ff1c",
@@ -295,7 +347,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "BNT"
+    "symbol": "BNT",
+    "name": "Bancor Network Token",
+    "address": "0x1f573d6fb3f13d689ff844b4ce37794d79a7ff1c"
   },
   {
     "assetData": "0xf47261b00000000000000000000000002023dcf7c438c8c8c0b0f28dbae15520b4f3ee20",
@@ -306,7 +360,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "FTR"
+    "symbol": "FTR",
+    "name": "FutouristToken",
+    "address": "0x2023dcf7c438c8c8c0b0f28dbae15520b4f3ee20"
   },
   {
     "assetData": "0xf47261b000000000000000000000000020f7a3ddf244dc9299975b4da1c39f8d5d75f05a",
@@ -317,7 +373,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "SPN"
+    "symbol": "SPN",
+    "name": "Sapien Network",
+    "address": "0x20f7a3ddf244dc9299975b4da1c39f8d5d75f05a"
   },
   {
     "assetData": "0xf47261b000000000000000000000000023b75bc7aaf28e2d6628c3f424b3882f8f072a3c",
@@ -328,7 +386,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "VIT"
+    "symbol": "VIT",
+    "name": "Vice",
+    "address": "0x23b75bc7aaf28e2d6628c3f424b3882f8f072a3c"
   },
   {
     "assetData": "0xf47261b000000000000000000000000024692791bc444c5cd0b81e3cbcaba4b04acd1f3b",
@@ -339,7 +399,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "UKG"
+    "symbol": "UKG",
+    "name": "UnikoinGold",
+    "address": "0x24692791bc444c5cd0b81e3cbcaba4b04acd1f3b"
   },
   {
     "assetData": "0xf47261b000000000000000000000000024cebc1548e698feffb5553b8ac8043b51069faa",
@@ -350,7 +412,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "TVAL"
+    "symbol": "TVAL",
+    "name": "Alvalor",
+    "address": "0x24cebc1548e698feffb5553b8ac8043b51069faa"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000255aa6df07540cb5d3d297f0d0d4d84cb52bc8e6",
@@ -361,7 +425,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "RDN"
+    "symbol": "RDN",
+    "name": "Raiden Token",
+    "address": "0x255aa6df07540cb5d3d297f0d0d4d84cb52bc8e6"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000263c618480dbe35c300d8d5ecda19bbb986acaed",
@@ -372,7 +438,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "MOT"
+    "symbol": "MOT",
+    "name": "MOT",
+    "address": "0x263c618480dbe35c300d8d5ecda19bbb986acaed"
   },
   {
     "assetData": "0xf47261b000000000000000000000000027054b13b1b798b345b591a4d22e6562d47ea75a",
@@ -383,7 +451,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "AST"
+    "symbol": "AST",
+    "name": "AirSwap Token",
+    "address": "0x27054b13b1b798b345b591a4d22e6562d47ea75a"
   },
   {
     "assetData": "0xf47261b000000000000000000000000027695e09149adc738a978e9a678f99e4c39e9eb9",
@@ -394,7 +464,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "KICK"
+    "symbol": "KICK",
+    "name": "KickCoin",
+    "address": "0x27695e09149adc738a978e9a678f99e4c39e9eb9"
   },
   {
     "assetData": "0xf47261b000000000000000000000000027f610bf36eca0939093343ac28b1534a721dbb4",
@@ -405,7 +477,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "WAND"
+    "symbol": "WAND",
+    "name": "Wand Token",
+    "address": "0x27f610bf36eca0939093343ac28b1534a721dbb4"
   },
   {
     "assetData": "0xf47261b00000000000000000000000002859021ee7f2cb10162e67f33af2d22764b31aff",
@@ -416,7 +490,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "SNTR"
+    "symbol": "SNTR",
+    "name": "Silent Notary Token",
+    "address": "0x2859021ee7f2cb10162e67f33af2d22764b31aff"
   },
   {
     "assetData": "0xf47261b00000000000000000000000002956356cd2a2bf3202f771f50d3d14a367b48070",
@@ -426,7 +502,9 @@
     "relayers": [
       "https://api.radarrelay.com/0x/v2/"
     ],
-    "symbol": "WETH"
+    "symbol": "WETH",
+    "name": "Ether Token",
+    "address": "0x2956356cd2a2bf3202f771f50d3d14a367b48070"
   },
   {
     "assetData": "0xf47261b00000000000000000000000003597bfd533a99c9aa083587b074434e61eb0a258",
@@ -437,7 +515,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "DENT"
+    "symbol": "DENT",
+    "name": "DENT",
+    "address": "0x3597bfd533a99c9aa083587b074434e61eb0a258"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000386467f1f3ddbe832448650418311a479eecfc57",
@@ -447,7 +527,9 @@
     "relayers": [
       "https://api.radarrelay.com/0x/v2/"
     ],
-    "symbol": "MBRS"
+    "symbol": "MBRS",
+    "name": "Embers",
+    "address": "0x386467f1f3ddbe832448650418311a479eecfc57"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000399a0e6fbeb3d74c85357439f4c8aed9678a5cbf",
@@ -457,7 +539,9 @@
     "relayers": [
       "https://api.radarrelay.com/0x/v2/"
     ],
-    "symbol": "DCL"
+    "symbol": "DCL",
+    "name": "DISLEDGER",
+    "address": "0x399a0e6fbeb3d74c85357439f4c8aed9678a5cbf"
   },
   {
     "assetData": "0xf47261b000000000000000000000000039bb259f66e1c59d5abef88375979b4d20d98022",
@@ -468,7 +552,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "WAX"
+    "symbol": "WAX",
+    "name": "Wax Token",
+    "address": "0x39bb259f66e1c59d5abef88375979b4d20d98022"
   },
   {
     "assetData": "0xf47261b00000000000000000000000003d1ba9be9f66b8ee101911bc36d3fb562eac2244",
@@ -479,7 +565,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "RVT"
+    "symbol": "RVT",
+    "name": "RvT",
+    "address": "0x3d1ba9be9f66b8ee101911bc36d3fb562eac2244"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000408e41876cccdc0f92210600ef50372656052a38",
@@ -490,7 +578,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "REN"
+    "symbol": "REN",
+    "name": "Republic Token",
+    "address": "0x408e41876cccdc0f92210600ef50372656052a38"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000419d0d8bdd9af5e606ae2232ed285aff190e711b",
@@ -501,7 +591,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "FUN"
+    "symbol": "FUN",
+    "name": "FunFair",
+    "address": "0x419d0d8bdd9af5e606ae2232ed285aff190e711b"
   },
   {
     "assetData": "0xf47261b000000000000000000000000041e5560054824ea6b0732e656e3ad64e20e94e45",
@@ -512,7 +604,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "CVC"
+    "symbol": "CVC",
+    "name": "Civic",
+    "address": "0x41e5560054824ea6b0732e656e3ad64e20e94e45"
   },
   {
     "assetData": "0xf47261b000000000000000000000000042d6622dece394b54999fbd73d108123806f6a18",
@@ -523,7 +617,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "SPANK"
+    "symbol": "SPANK",
+    "name": "SPANK",
+    "address": "0x42d6622dece394b54999fbd73d108123806f6a18"
   },
   {
     "assetData": "0xf47261b000000000000000000000000044f588aeeb8c44471439d1270b3603c66a9262f1",
@@ -534,7 +630,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "SNIP"
+    "symbol": "SNIP",
+    "name": "SnipCoin",
+    "address": "0x44f588aeeb8c44471439d1270b3603c66a9262f1"
   },
   {
     "assetData": "0xf47261b000000000000000000000000045ed02e374aef2e4b34c04e86ad9d45891d10751",
@@ -545,7 +643,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "DFS"
+    "symbol": "DFS",
+    "name": "Digital Fantasy Sports",
+    "address": "0x45ed02e374aef2e4b34c04e86ad9d45891d10751"
   },
   {
     "assetData": "0xf47261b00000000000000000000000004aac461c86abfa71e9d00d9a2cde8d74e4e1aeea",
@@ -556,7 +656,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "ZINC"
+    "symbol": "ZINC",
+    "name": "ZINC",
+    "address": "0x4aac461c86abfa71e9d00d9a2cde8d74e4e1aeea"
   },
   {
     "assetData": "0xf47261b00000000000000000000000004d8fc1453a0f359e99c9675954e656d80d996fbf",
@@ -567,7 +669,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "BEE"
+    "symbol": "BEE",
+    "name": "Bee Token",
+    "address": "0x4d8fc1453a0f359e99c9675954e656d80d996fbf"
   },
   {
     "assetData": "0xf47261b00000000000000000000000004dc3643dbc642b72c158e7f3d2ff232df61cb6ce",
@@ -578,7 +682,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "AMB"
+    "symbol": "AMB",
+    "name": "Amber Token",
+    "address": "0x4dc3643dbc642b72c158e7f3d2ff232df61cb6ce"
   },
   {
     "assetData": "0xf47261b00000000000000000000000004df47b4969b2911c966506e3592c41389493953b",
@@ -589,7 +695,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "FND"
+    "symbol": "FND",
+    "name": "FundRequest",
+    "address": "0x4df47b4969b2911c966506e3592c41389493953b"
   },
   {
     "assetData": "0xf47261b00000000000000000000000004df812f6064def1e5e029f1ca858777cc98d2d81",
@@ -600,7 +708,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "XAUR"
+    "symbol": "XAUR",
+    "name": "Xaurum",
+    "address": "0x4df812f6064def1e5e029f1ca858777cc98d2d81"
   },
   {
     "assetData": "0xf47261b00000000000000000000000004f3afec4e5a3f2a6a1a411def7d7dfe50ee057bf",
@@ -611,7 +721,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "DGX"
+    "symbol": "DGX",
+    "name": "Digix Gold Token",
+    "address": "0x4f3afec4e5a3f2a6a1a411def7d7dfe50ee057bf"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000514910771af9ca656af840dff83e8264ecf986ca",
@@ -622,7 +734,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "LINK"
+    "symbol": "LINK",
+    "name": "ChainLink Token",
+    "address": "0x514910771af9ca656af840dff83e8264ecf986ca"
   },
   {
     "assetData": "0xf47261b000000000000000000000000052a7cb918c11a16958be40cba7e31e32a499a465",
@@ -633,7 +747,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "fdX"
+    "symbol": "fdX",
+    "name": "fidentiaX",
+    "address": "0x52a7cb918c11a16958be40cba7e31e32a499a465"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000554c20b7c486beee439277b4540a434566dc4c02",
@@ -644,7 +760,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "HST"
+    "symbol": "HST",
+    "name": "Decision Token",
+    "address": "0x554c20b7c486beee439277b4540a434566dc4c02"
   },
   {
     "assetData": "0xf47261b000000000000000000000000056ba2ee7890461f463f7be02aac3099f6d5811a8",
@@ -655,7 +773,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "CAT"
+    "symbol": "CAT",
+    "name": "BlockCAT Token",
+    "address": "0x56ba2ee7890461f463f7be02aac3099f6d5811a8"
   },
   {
     "assetData": "0xf47261b00000000000000000000000005732046a883704404f284ce41ffadd5b007fd668",
@@ -666,7 +786,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "BLZ"
+    "symbol": "BLZ",
+    "name": "Bluzelle Token",
+    "address": "0x5732046a883704404f284ce41ffadd5b007fd668"
   },
   {
     "assetData": "0xf47261b000000000000000000000000058b6a8a3302369daec383334672404ee733ab239",
@@ -677,7 +799,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "LPT"
+    "symbol": "LPT",
+    "name": "Livepeer Token",
+    "address": "0x58b6a8a3302369daec383334672404ee733ab239"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000595832f8fc6bf59c85c527fec3740a1b7a361269",
@@ -688,7 +812,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "POWR"
+    "symbol": "POWR",
+    "name": "PowerLedger",
+    "address": "0x595832f8fc6bf59c85c527fec3740a1b7a361269"
   },
   {
     "assetData": "0xf47261b00000000000000000000000005af2be193a6abca9c8817001f45744777db30756",
@@ -699,7 +825,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "ETHOS"
+    "symbol": "ETHOS",
+    "name": "Ethos",
+    "address": "0x5af2be193a6abca9c8817001f45744777db30756"
   },
   {
     "assetData": "0xf47261b00000000000000000000000005b09a0371c1da44a8e24d36bf5deb1141a84d875",
@@ -710,7 +838,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "MAD"
+    "symbol": "MAD",
+    "name": "MADToken",
+    "address": "0x5b09a0371c1da44a8e24d36bf5deb1141a84d875"
   },
   {
     "assetData": "0xf47261b00000000000000000000000005b2e4a700dfbc560061e957edec8f6eeeb74a320",
@@ -721,7 +851,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "INS"
+    "symbol": "INS",
+    "name": "INS Token",
+    "address": "0x5b2e4a700dfbc560061e957edec8f6eeeb74a320"
   },
   {
     "assetData": "0xf47261b00000000000000000000000005bc7e5f0ab8b2e10d2d0a3f21739fce62459aef3",
@@ -732,7 +864,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "ENTRP"
+    "symbol": "ENTRP",
+    "name": "Hut34 Entropy Token",
+    "address": "0x5bc7e5f0ab8b2e10d2d0a3f21739fce62459aef3"
   },
   {
     "assetData": "0xf47261b00000000000000000000000005ca9a71b1d01849c0a95490cc00559717fcf0d1d",
@@ -743,7 +877,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "AE"
+    "symbol": "AE",
+    "name": "Aeternity",
+    "address": "0x5ca9a71b1d01849c0a95490cc00559717fcf0d1d"
   },
   {
     "assetData": "0xf47261b00000000000000000000000005e3346444010135322268a4630d2ed5f8d09446c",
@@ -754,7 +890,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "LOC"
+    "symbol": "LOC",
+    "name": "LockTrip",
+    "address": "0x5e3346444010135322268a4630d2ed5f8d09446c"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000607f4c5bb672230e8672085532f7e901544a7375",
@@ -765,7 +903,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "RLC"
+    "symbol": "RLC",
+    "name": "iEx.ec Network Token",
+    "address": "0x607f4c5bb672230e8672085532f7e901544a7375"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000614ea929892ea43d3ea2c5e3311b01cc589bad6c",
@@ -775,7 +915,9 @@
     "relayers": [
       "https://api.radarrelay.com/0x/v2/"
     ],
-    "symbol": "ENO"
+    "symbol": "ENO",
+    "name": "Ethino",
+    "address": "0x614ea929892ea43d3ea2c5e3311b01cc589bad6c"
   },
   {
     "assetData": "0xf47261b00000000000000000000000006425c6be902d692ae2db752b3c268afadb099d3b",
@@ -786,7 +928,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "MWAT"
+    "symbol": "MWAT",
+    "name": "RED MWAT",
+    "address": "0x6425c6be902d692ae2db752b3c268afadb099d3b"
   },
   {
     "assetData": "0xf47261b00000000000000000000000006781a0f84c7e9e846dcb84a9a5bd49333067b104",
@@ -797,7 +941,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "ZAP"
+    "symbol": "ZAP",
+    "name": "ZAP TOKEN",
+    "address": "0x6781a0f84c7e9e846dcb84a9a5bd49333067b104"
   },
   {
     "assetData": "0xf47261b00000000000000000000000006810e776880c02933d47db1b9fc05908e5386b96",
@@ -808,7 +954,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "GNO"
+    "symbol": "GNO",
+    "name": "Gnosis Token",
+    "address": "0x6810e776880c02933d47db1b9fc05908e5386b96"
   },
   {
     "assetData": "0xf47261b00000000000000000000000006aeb95f06cda84ca345c2de0f3b7f96923a44f4c",
@@ -819,7 +967,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "BERRY"
+    "symbol": "BERRY",
+    "name": "Berry",
+    "address": "0x6aeb95f06cda84ca345c2de0f3b7f96923a44f4c"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000744d70fdbe2ba4cf95131626614a1763df805b9e",
@@ -830,7 +980,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "SNT"
+    "symbol": "SNT",
+    "name": "Status Network",
+    "address": "0x744d70fdbe2ba4cf95131626614a1763df805b9e"
   },
   {
     "assetData": "0xf47261b00000000000000000000000007654915a1b82d6d2d0afc37c52af556ea8983c7e",
@@ -841,7 +993,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "IFT"
+    "symbol": "IFT",
+    "name": "Feed",
+    "address": "0x7654915a1b82d6d2d0afc37c52af556ea8983c7e"
   },
   {
     "assetData": "0xf47261b00000000000000000000000007b69b78cc7fee48202c208609ae6d1f78ce42e13",
@@ -851,7 +1005,9 @@
     "relayers": [
       "https://api.radarrelay.com/0x/v2/"
     ],
-    "symbol": "GOAL"
+    "symbol": "GOAL",
+    "name": "GOAL Bonanza",
+    "address": "0x7b69b78cc7fee48202c208609ae6d1f78ce42e13"
   },
   {
     "assetData": "0xf47261b00000000000000000000000007d4b8cce0591c9044a22ee543533b72e976e36c3",
@@ -862,7 +1018,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "CAG"
+    "symbol": "CAG",
+    "name": "Change COIN",
+    "address": "0x7d4b8cce0591c9044a22ee543533b72e976e36c3"
   },
   {
     "assetData": "0xf47261b000000000000000000000000080fb784b7ed66730e8b1dbd9820afd29931aab03",
@@ -873,7 +1031,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "LEND"
+    "symbol": "LEND",
+    "name": "EthLendToken",
+    "address": "0x80fb784b7ed66730e8b1dbd9820afd29931aab03"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000814964b1bceaf24e26296d031eadf134a2ca4105",
@@ -883,7 +1043,9 @@
     "relayers": [
       "https://api.radarrelay.com/0x/v2/"
     ],
-    "symbol": "NEWB"
+    "symbol": "NEWB",
+    "name": "Newbium",
+    "address": "0x814964b1bceaf24e26296d031eadf134a2ca4105"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000865e3707a580f9db89304005cddd050ade8873eb",
@@ -894,7 +1056,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "HIRE"
+    "symbol": "HIRE",
+    "name": "Hire",
+    "address": "0x865e3707a580f9db89304005cddd050ade8873eb"
   },
   {
     "assetData": "0xf47261b000000000000000000000000088fcfbc22c6d3dbaa25af478c578978339bde77a",
@@ -905,7 +1069,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "FYN"
+    "symbol": "FYN",
+    "name": "FundYourselfNow Token",
+    "address": "0x88fcfbc22c6d3dbaa25af478c578978339bde77a"
   },
   {
     "assetData": "0xf47261b00000000000000000000000008a854288a5976036a725879164ca3e91d30c6a1b",
@@ -916,7 +1082,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "GET"
+    "symbol": "GET",
+    "name": "GET",
+    "address": "0x8a854288a5976036a725879164ca3e91d30c6a1b"
   },
   {
     "assetData": "0xf47261b00000000000000000000000008ae4bf2c33a8e667de34b54938b0ccd03eb8cc06",
@@ -927,7 +1095,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "PTOY"
+    "symbol": "PTOY",
+    "name": "Patientory",
+    "address": "0x8ae4bf2c33a8e667de34b54938b0ccd03eb8cc06"
   },
   {
     "assetData": "0xf47261b00000000000000000000000008eb24319393716668d768dcec29356ae9cffe285",
@@ -938,7 +1108,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "AGI"
+    "symbol": "AGI",
+    "name": "SingularityNET Token",
+    "address": "0x8eb24319393716668d768dcec29356ae9cffe285"
   },
   {
     "assetData": "0xf47261b00000000000000000000000008f8221afbb33998d8584a2b05749ba73c37a938a",
@@ -949,7 +1121,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "REQ"
+    "symbol": "REQ",
+    "name": "Request Token",
+    "address": "0x8f8221afbb33998d8584a2b05749ba73c37a938a"
   },
   {
     "assetData": "0xf47261b00000000000000000000000009214ec02cb71cba0ada6896b8da260736a67ab10",
@@ -960,7 +1134,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "REAL"
+    "symbol": "REAL",
+    "name": "REAL",
+    "address": "0x9214ec02cb71cba0ada6896b8da260736a67ab10"
   },
   {
     "assetData": "0xf47261b000000000000000000000000095daaab98046846bf4b2853e23cba236fa394a31",
@@ -971,7 +1147,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "EMONT"
+    "symbol": "EMONT",
+    "name": "EtheremonToken",
+    "address": "0x95daaab98046846bf4b2853e23cba236fa394a31"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000960b236a07cf122663c4303350609a66a7b288c0",
@@ -982,7 +1160,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "ANT"
+    "symbol": "ANT",
+    "name": "Aragon Network Token",
+    "address": "0x960b236a07cf122663c4303350609a66a7b288c0"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000983f6d60db79ea8ca4eb9968c6aff8cfa04b3c63",
@@ -993,7 +1173,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "SNM"
+    "symbol": "SNM",
+    "name": "SONM Token",
+    "address": "0x983f6d60db79ea8ca4eb9968c6aff8cfa04b3c63"
   },
   {
     "assetData": "0xf47261b00000000000000000000000009992ec3cf6a55b00978cddf2b27bc6882d88d1ec",
@@ -1004,7 +1186,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "POLY"
+    "symbol": "POLY",
+    "name": "Polymath",
+    "address": "0x9992ec3cf6a55b00978cddf2b27bc6882d88d1ec"
   },
   {
     "assetData": "0xf47261b000000000000000000000000099ea4db9ee77acd40b119bd1dc4e33e1c070b80d",
@@ -1015,7 +1199,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "QSP"
+    "symbol": "QSP",
+    "name": "Quantstamp Token",
+    "address": "0x99ea4db9ee77acd40b119bd1dc4e33e1c070b80d"
   },
   {
     "assetData": "0xf47261b00000000000000000000000009a005c9a89bd72a4bd27721e7a09a3c11d2b03c4",
@@ -1026,7 +1212,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "STAC"
+    "symbol": "STAC",
+    "name": "StarterCoin",
+    "address": "0x9a005c9a89bd72a4bd27721e7a09a3c11d2b03c4"
   },
   {
     "assetData": "0xf47261b00000000000000000000000009a0242b7a33dacbe40edb927834f96eb39f8fbcb",
@@ -1037,7 +1225,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "BAX"
+    "symbol": "BAX",
+    "name": "BAX",
+    "address": "0x9a0242b7a33dacbe40edb927834f96eb39f8fbcb"
   },
   {
     "assetData": "0xf47261b00000000000000000000000009af4f26941677c706cfecf6d3379ff01bb85d5ab",
@@ -1048,7 +1238,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "DRT"
+    "symbol": "DRT",
+    "name": "Domraider",
+    "address": "0x9af4f26941677c706cfecf6d3379ff01bb85d5ab"
   },
   {
     "assetData": "0xf47261b00000000000000000000000009f8f72aa9304c8b593d555f12ef6589cc3a579a2",
@@ -1059,7 +1251,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "MKR"
+    "symbol": "MKR",
+    "name": "Maker",
+    "address": "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000a017ac5fac5941f95010b12570b812c974469c2c",
@@ -1070,7 +1264,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "XES"
+    "symbol": "XES",
+    "name": "Proxeus",
+    "address": "0xa017ac5fac5941f95010b12570b812c974469c2c"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000a4e8c3ec456107ea67d3075bf9e3df3a75823db0",
@@ -1081,7 +1277,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "LOOM"
+    "symbol": "LOOM",
+    "name": "LoomToken",
+    "address": "0xa4e8c3ec456107ea67d3075bf9e3df3a75823db0"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000a5fd1a791c4dfcaacc963d4f73c6ae5824149ea7",
@@ -1092,7 +1290,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "JNT"
+    "symbol": "JNT",
+    "name": "Jibrel Network Token",
+    "address": "0xa5fd1a791c4dfcaacc963d4f73c6ae5824149ea7"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000a8006c4ca56f24d6836727d106349320db7fef82",
@@ -1103,7 +1303,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "INXT"
+    "symbol": "INXT",
+    "name": "Internxt",
+    "address": "0xa8006c4ca56f24d6836727d106349320db7fef82"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000a87c3ec87eb802aad080df0adb331e504d327e5d",
@@ -1114,7 +1316,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "DALA"
+    "symbol": "DALA",
+    "name": "Dala",
+    "address": "0xa87c3ec87eb802aad080df0adb331e504d327e5d"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000ac3211a5025414af2866ff09c23fc18bc97e79b1",
@@ -1125,7 +1329,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "DOVU"
+    "symbol": "DOVU",
+    "name": "DOVU",
+    "address": "0xac3211a5025414af2866ff09c23fc18bc97e79b1"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000acfa209fb73bf3dd5bbfb1101b9bc999c49062a5",
@@ -1136,7 +1342,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "BCDT"
+    "symbol": "BCDT",
+    "name": "Blockchain Certified Data Token",
+    "address": "0xacfa209fb73bf3dd5bbfb1101b9bc999c49062a5"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000b45a50545beeab73f38f31e5973768c421805e5e",
@@ -1147,7 +1355,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "TKR"
+    "symbol": "TKR",
+    "name": "TKRToken",
+    "address": "0xb45a50545beeab73f38f31e5973768c421805e5e"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000b4efd85c19999d84251304bda99e90b92300bd93",
@@ -1158,7 +1368,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "RPL"
+    "symbol": "RPL",
+    "name": "Rocket Pool",
+    "address": "0xb4efd85c19999d84251304bda99e90b92300bd93"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000b5a5f22694352c15b00323844ad545abb2b11028",
@@ -1169,7 +1381,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "ICX"
+    "symbol": "ICX",
+    "name": "ICON",
+    "address": "0xb5a5f22694352c15b00323844ad545abb2b11028"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000b62d18dea74045e822352ce4b3ee77319dc5ff2f",
@@ -1180,7 +1394,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "EVC"
+    "symbol": "EVC",
+    "name": "EventChain",
+    "address": "0xb62d18dea74045e822352ce4b3ee77319dc5ff2f"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000b64ef51c888972c908cfacf59b47c1afbc0ab8ac",
@@ -1191,7 +1407,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "STORJ"
+    "symbol": "STORJ",
+    "name": "StorjToken",
+    "address": "0xb64ef51c888972c908cfacf59b47c1afbc0ab8ac"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000ba2184520a1cc49a6159c57e61e1844e085615b6",
@@ -1202,7 +1420,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "HGT"
+    "symbol": "HGT",
+    "name": "HelloGold Token",
+    "address": "0xba2184520a1cc49a6159c57e61e1844e085615b6"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000ba5f11b16b155792cf3b2e6880e8706859a8aeb6",
@@ -1213,7 +1433,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "ARN"
+    "symbol": "ARN",
+    "name": "Aeron",
+    "address": "0xba5f11b16b155792cf3b2e6880e8706859a8aeb6"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000bc86727e770de68b1060c91f6bb6945c73e10388",
@@ -1224,7 +1446,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "XNK"
+    "symbol": "XNK",
+    "name": "Ink Protocol",
+    "address": "0xbc86727e770de68b1060c91f6bb6945c73e10388"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000beb9ef514a379b997e0798fdcc901ee474b6d9a1",
@@ -1235,7 +1459,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "MLN"
+    "symbol": "MLN",
+    "name": "Melon Token",
+    "address": "0xbeb9ef514a379b997e0798fdcc901ee474b6d9a1"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000bf2179859fc6d5bee9bf9158632dc51678a4100e",
@@ -1246,7 +1472,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "ELF"
+    "symbol": "ELF",
+    "name": "ELF Token",
+    "address": "0xbf2179859fc6d5bee9bf9158632dc51678a4100e"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000c12d099be31567add4e4e4d0d45691c3f58f5663",
@@ -1257,7 +1485,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "AUC"
+    "symbol": "AUC",
+    "name": "Auctus Token",
+    "address": "0xc12d099be31567add4e4e4d0d45691c3f58f5663"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000c27a2f05fa577a83ba0fdb4c38443c0718356501",
@@ -1268,7 +1498,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "TAU"
+    "symbol": "TAU",
+    "name": "Lamden Tau",
+    "address": "0xc27a2f05fa577a83ba0fdb4c38443c0718356501"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000c39e626a04c5971d770e319760d7926502975e47",
@@ -1279,7 +1511,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "AXPR"
+    "symbol": "AXPR",
+    "name": "aXpire",
+    "address": "0xc39e626a04c5971d770e319760d7926502975e47"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000c438b4c0dfbb1593be6dee03bbd1a84bb3aa6213",
@@ -1290,7 +1524,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "EQC"
+    "symbol": "EQC",
+    "name": "Ethereum Qchain Token",
+    "address": "0xc438b4c0dfbb1593be6dee03bbd1a84bb3aa6213"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000c66ea802717bfb9833400264dd12c2bceaa34a6d",
@@ -1300,7 +1536,9 @@
     "relayers": [
       "https://api.radarrelay.com/0x/v2/"
     ],
-    "symbol": "MKR"
+    "symbol": "MKR",
+    "name": "MKR",
+    "address": "0xc66ea802717bfb9833400264dd12c2bceaa34a6d"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000c997d07b0bc607b6d1bcb6fb9d4a5579c466c3e5",
@@ -1310,7 +1548,9 @@
     "relayers": [
       "https://api.radarrelay.com/0x/v2/"
     ],
-    "symbol": "FLIP"
+    "symbol": "FLIP",
+    "name": "Flip",
+    "address": "0xc997d07b0bc607b6d1bcb6fb9d4a5579c466c3e5"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000d0a4b8946cb52f0661273bfbc6fd0e0c75fc6433",
@@ -1321,7 +1561,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "STORM"
+    "symbol": "STORM",
+    "name": "Storm Token",
+    "address": "0xd0a4b8946cb52f0661273bfbc6fd0e0c75fc6433"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000d26114cd6ee289accf82350c8d8487fedb8a0c07",
@@ -1332,7 +1574,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "OMG"
+    "symbol": "OMG",
+    "name": "OMGToken",
+    "address": "0xd26114cd6ee289accf82350c8d8487fedb8a0c07"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000d2d6158683aee4cc838067727209a0aaf4359de3",
@@ -1343,7 +1587,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "BNTY"
+    "symbol": "BNTY",
+    "name": "Bounty0x Token",
+    "address": "0xd2d6158683aee4cc838067727209a0aaf4359de3"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000d2fa8f92ea72abb35dbd6deca57173d22db2ba49",
@@ -1354,7 +1600,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "ORI"
+    "symbol": "ORI",
+    "name": "Origami Network",
+    "address": "0xd2fa8f92ea72abb35dbd6deca57173d22db2ba49"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000d4c435f5b09f855c3317c8524cb1f586e42795fa",
@@ -1365,7 +1613,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "CND"
+    "symbol": "CND",
+    "name": "Cindicator Token",
+    "address": "0xd4c435f5b09f855c3317c8524cb1f586e42795fa"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000d8912c10681d8b21fd3742244f44658dba12264e",
@@ -1376,7 +1626,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "PLU"
+    "symbol": "PLU",
+    "name": "Pluton",
+    "address": "0xd8912c10681d8b21fd3742244f44658dba12264e"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000d8950fdeaa10304b7a7fd03a2fc66bc39f3c711a",
@@ -1387,7 +1639,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "WYS"
+    "symbol": "WYS",
+    "name": "wys Token",
+    "address": "0xd8950fdeaa10304b7a7fd03a2fc66bc39f3c711a"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000dd6c68bb32462e01705011a4e2ad1a60740f217f",
@@ -1398,7 +1652,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "HBT"
+    "symbol": "HBT",
+    "name": "Hubiits",
+    "address": "0xdd6c68bb32462e01705011a4e2ad1a60740f217f"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000dd74a7a3769fa72561b3a69e65968f49748c690c",
@@ -1408,7 +1664,9 @@
     "relayers": [
       "https://api.radarrelay.com/0x/v2/"
     ],
-    "symbol": "ETCH"
+    "symbol": "ETCH",
+    "name": "ETCH Supply Token",
+    "address": "0xdd74a7a3769fa72561b3a69e65968f49748c690c"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000dd974d5c2e2928dea5f71b9825b8b646686bd200",
@@ -1419,7 +1677,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "KNC"
+    "symbol": "KNC",
+    "name": "Kyber Network Crystal",
+    "address": "0xdd974d5c2e2928dea5f71b9825b8b646686bd200"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000e0b7927c4af23765cb51314a0e0521a9645f0e2a",
@@ -1430,7 +1690,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "DGD"
+    "symbol": "DGD",
+    "name": "Digix",
+    "address": "0xe0b7927c4af23765cb51314a0e0521a9645f0e2a"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000e41d2489571d322189246dafa5ebde1f4699f498",
@@ -1442,7 +1704,9 @@
       "https://api.openrelay.xyz/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "ZRX"
+    "symbol": "ZRX",
+    "name": "0x Protocol Token",
+    "address": "0xe41d2489571d322189246dafa5ebde1f4699f498"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000e81d72d14b1516e68ac3190a46c93302cc8ed60f",
@@ -1453,7 +1717,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "CL"
+    "symbol": "CL",
+    "name": "Coinlancer",
+    "address": "0xe81d72d14b1516e68ac3190a46c93302cc8ed60f"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000ea097a2b1db00627b2fa17460ad260c016016977",
@@ -1464,7 +1730,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "UFR"
+    "symbol": "UFR",
+    "name": "Upfiring",
+    "address": "0xea097a2b1db00627b2fa17460ad260c016016977"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000ea11755ae41d889ceec39a63e6ff75a02bc1c00d",
@@ -1475,7 +1743,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "CTXC"
+    "symbol": "CTXC",
+    "name": "Cortex Coin",
+    "address": "0xea11755ae41d889ceec39a63e6ff75a02bc1c00d"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000ea1f346faf023f974eb5adaf088bbcdf02d761f4",
@@ -1486,7 +1756,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "TIX"
+    "symbol": "TIX",
+    "name": "Blocktix",
+    "address": "0xea1f346faf023f974eb5adaf088bbcdf02d761f4"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000ea38eaa3c86c8f9b751533ba2e562deb9acded40",
@@ -1497,7 +1769,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "FUEL"
+    "symbol": "FUEL",
+    "name": "Fuel Token",
+    "address": "0xea38eaa3c86c8f9b751533ba2e562deb9acded40"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000eab43193cf0623073ca89db9b712796356fa7414",
@@ -1508,7 +1782,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "GOLDX"
+    "symbol": "GOLDX",
+    "name": "GOLDX",
+    "address": "0xeab43193cf0623073ca89db9b712796356fa7414"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000eb2da9fac54284cea731d1f10bb34eecb3c00c14",
@@ -1518,7 +1794,9 @@
     "relayers": [
       "https://api.radarrelay.com/0x/v2/"
     ],
-    "symbol": "POW"
+    "symbol": "POW",
+    "name": "POW Token",
+    "address": "0xeb2da9fac54284cea731d1f10bb34eecb3c00c14"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000eb7c20027172e5d143fb030d50f91cece2d1485d",
@@ -1529,7 +1807,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "EBTC"
+    "symbol": "EBTC",
+    "name": "eBTC",
+    "address": "0xeb7c20027172e5d143fb030d50f91cece2d1485d"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000ebbdf302c940c6bfd49c6b165f457fdb324649bc",
@@ -1540,7 +1820,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "HYDRO"
+    "symbol": "HYDRO",
+    "name": "Hydro",
+    "address": "0xebbdf302c940c6bfd49c6b165f457fdb324649bc"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000eee2d00eb7deb8dd6924187f5aa3496b7d06e62a",
@@ -1551,7 +1833,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "TIG"
+    "symbol": "TIG",
+    "name": "Tigereum",
+    "address": "0xeee2d00eb7deb8dd6924187f5aa3496b7d06e62a"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000ef2463099360a085f1f10b076ed72ef625497a06",
@@ -1562,7 +1846,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "SHP"
+    "symbol": "SHP",
+    "name": "Sharpe Platform Token",
+    "address": "0xef2463099360a085f1f10b076ed72ef625497a06"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000f1e48f13768bd8114a530070b43257a63f24bb12",
@@ -1572,7 +1858,9 @@
     "relayers": [
       "https://api.radarrelay.com/0x/v2/"
     ],
-    "symbol": "E10"
+    "symbol": "E10",
+    "name": "Ethereum10 Q2-2018",
+    "address": "0xf1e48f13768bd8114a530070b43257a63f24bb12"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000f433089366899d83a9f26a773d59ec7ecf30355e",
@@ -1583,7 +1871,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "MTL"
+    "symbol": "MTL",
+    "name": "Metal",
+    "address": "0xf433089366899d83a9f26a773d59ec7ecf30355e"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000f6cfe53d6febaeea051f400ff5fc14f0cbbdaca1",
@@ -1594,7 +1884,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "DGPT"
+    "symbol": "DGPT",
+    "name": "DigiPulse Token",
+    "address": "0xf6cfe53d6febaeea051f400ff5fc14f0cbbdaca1"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000f7b098298f7c69fc14610bf71d5e02c60792894c",
@@ -1605,7 +1897,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "GUP"
+    "symbol": "GUP",
+    "name": "Guppy",
+    "address": "0xf7b098298f7c69fc14610bf71d5e02c60792894c"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000f860f90e1f55e3528682e18850612cbb45bbf1bc",
@@ -1616,7 +1910,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "DEX"
+    "symbol": "DEX",
+    "name": "Decentralized Exchange Set",
+    "address": "0xf860f90e1f55e3528682e18850612cbb45bbf1bc"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000f970b8e36e23f7fc3fd752eea86f8be8d83375a6",
@@ -1627,7 +1923,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "RCN"
+    "symbol": "RCN",
+    "name": "Ripio Credit Network Token",
+    "address": "0xf970b8e36e23f7fc3fd752eea86f8be8d83375a6"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000fa1a856cfa3409cfa145fa4e20eb270df3eb21ab",
@@ -1638,7 +1936,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "IOST"
+    "symbol": "IOST",
+    "name": "IOSToken",
+    "address": "0xfa1a856cfa3409cfa145fa4e20eb270df3eb21ab"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000fa456cf55250a839088b27ee32a424d7dacb54ff",
@@ -1649,7 +1949,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "BTT"
+    "symbol": "BTT",
+    "name": "blocktrade.com",
+    "address": "0xfa456cf55250a839088b27ee32a424d7dacb54ff"
   },
   {
     "assetData": "0xf47261b000000000000000000000000022365168c8705e95b2d08876c23a8c13e3ad72e2",
@@ -1659,7 +1961,9 @@
     "relayers": [
       "https://api.radarrelay.com/0x/v2/"
     ],
-    "symbol": "PASS"
+    "symbol": "PASS",
+    "name": "GU Tournament Passes",
+    "address": "0x22365168c8705e95b2d08876c23a8c13e3ad72e2"
   },
   {
     "assetData": "0xf47261b00000000000000000000000009d9832d1beb29cc949d75d61415fd00279f84dc2",
@@ -1670,7 +1974,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "DNN"
+    "symbol": "DNN",
+    "name": "DNN",
+    "address": "0x9d9832d1beb29cc949d75d61415fd00279f84dc2"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
@@ -1681,7 +1987,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "USDC"
+    "symbol": "USDC",
+    "name": "USD//C",
+    "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000056fd409e1d7a124bd7017459dfea2f387b6d5cd",
@@ -1692,7 +2000,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "GUSD"
+    "symbol": "GUSD",
+    "name": "Gemini dollar",
+    "address": "0x056fd409e1d7a124bd7017459dfea2f387b6d5cd"
   },
   {
     "assetData": "0xf47261b00000000000000000000000004946fcea7c692606e8908002e55a582af44ac121",
@@ -1703,7 +2013,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "FOAM"
+    "symbol": "FOAM",
+    "name": "FOAM Token",
+    "address": "0x4946fcea7c692606e8908002e55a582af44ac121"
   },
   {
     "assetData": "0xf47261b00000000000000000000000002260fac5e5542a773aa44fbcfedf7c193bc2c599",
@@ -1714,7 +2026,9 @@
       "https://api.radarrelay.com/0x/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "WBTC"
+    "symbol": "WBTC",
+    "name": "Wrapped BTC",
+    "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599"
   },
   {
     "assetData": "0xf47261b00000000000000000000000000027449bf0887ca3e431d263ffdefb244d95b555",
@@ -1725,7 +2039,9 @@
       "https://api.openrelay.xyz/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "NOT"
+    "symbol": "NOT",
+    "name": "Not",
+    "address": "0x0027449bf0887ca3e431d263ffdefb244d95b555"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000dde19c145c1ee51b48f7a28e8df125da0cc440be",
@@ -1736,7 +2052,9 @@
       "https://api.openrelay.xyz/v2/",
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "MBGN"
+    "symbol": "MBGN",
+    "name": "Embiggen",
+    "address": "0xdde19c145c1ee51b48f7a28e8df125da0cc440be"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000dac17f958d2ee523a2206206994597c13d831ec7",
@@ -1746,7 +2064,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "USDT"
+    "symbol": "USDT",
+    "name": "Tether USD",
+    "address": "0xdac17f958d2ee523a2206206994597c13d831ec7"
   },
   {
     "assetData": "0xf47261b00000000000000000000000008effd494eb698cc399af6231fccd39e08fd20b15",
@@ -1756,7 +2076,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "PIX"
+    "symbol": "PIX",
+    "name": "PIX Token",
+    "address": "0x8effd494eb698cc399af6231fccd39e08fd20b15"
   },
   {
     "assetData": "0xf47261b00000000000000000000000009a642d6b3368ddc662ca244badf32cda716005bc",
@@ -1766,7 +2088,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "QTUM"
+    "symbol": "QTUM",
+    "name": "Qtum",
+    "address": "0x9a642d6b3368ddc662ca244badf32cda716005bc"
   },
   {
     "assetData": "0xf47261b00000000000000000000000004156d3342d5c385a87d264f90653733592000581",
@@ -1776,7 +2100,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "SALT"
+    "symbol": "SALT",
+    "name": "Salt",
+    "address": "0x4156d3342d5c385a87d264f90653733592000581"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000f8e386eda857484f5a12e4b5daa9984e06e73705",
@@ -1786,7 +2112,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "IND"
+    "symbol": "IND",
+    "name": "Indorse Token",
+    "address": "0xf8e386eda857484f5a12e4b5daa9984e06e73705"
   },
   {
     "assetData": "0xf47261b00000000000000000000000004355fc160f74328f9b383df2ec589bb3dfd82ba0",
@@ -1796,7 +2124,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "OPT"
+    "symbol": "OPT",
+    "name": "Opus Token",
+    "address": "0x4355fc160f74328f9b383df2ec589bb3dfd82ba0"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000b8c77482e45f1f44de1745f52c74426c631bdd52",
@@ -1806,7 +2136,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "BNB"
+    "symbol": "BNB",
+    "name": "BNB",
+    "address": "0xb8c77482e45f1f44de1745f52c74426c631bdd52"
   },
   {
     "assetData": "0xf47261b00000000000000000000000004470bb87d77b963a013db939be332f927f2b992e",
@@ -1816,7 +2148,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "ADX"
+    "symbol": "ADX",
+    "name": "AdEx",
+    "address": "0x4470bb87d77b963a013db939be332f927f2b992e"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000667088b212ce3d06a1b553a7221e1fd19000d9af",
@@ -1826,7 +2160,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "WINGS"
+    "symbol": "WINGS",
+    "name": "WINGS",
+    "address": "0x667088b212ce3d06a1b553a7221e1fd19000d9af"
   },
   {
     "assetData": "0xf47261b00000000000000000000000002c974b2d0ba1716e644c1fc59982a89ddd2ff724",
@@ -1836,7 +2172,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "VIB"
+    "symbol": "VIB",
+    "name": "VIB",
+    "address": "0x2c974b2d0ba1716e644c1fc59982a89ddd2ff724"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000aec2e87e0a235266d9c5adc9deb4b2e29b54d009",
@@ -1846,7 +2184,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "SNGLS"
+    "symbol": "SNGLS",
+    "name": "SingularDTV",
+    "address": "0xaec2e87e0a235266d9c5adc9deb4b2e29b54d009"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000818fc6c2ec5986bc6e2cbf00939d90556ab12ce5",
@@ -1856,7 +2196,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "KIN"
+    "symbol": "KIN",
+    "name": "Kin",
+    "address": "0x818fc6c2ec5986bc6e2cbf00939d90556ab12ce5"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000ef68e7c694f40c8202821edf525de3782458639f",
@@ -1866,7 +2208,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "LRC"
+    "symbol": "LRC",
+    "name": "loopring",
+    "address": "0xef68e7c694f40c8202821edf525de3782458639f"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000461733c17b0755ca5649b6db08b3e213fcf22546",
@@ -1876,7 +2220,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "ATN"
+    "symbol": "ATN",
+    "name": "ATN",
+    "address": "0x461733c17b0755ca5649b6db08b3e213fcf22546"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000a44e5137293e855b1b7bc7e2c6f8cd796ffcb037",
@@ -1886,7 +2232,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "SENT"
+    "symbol": "SENT",
+    "name": "SENTinel",
+    "address": "0xa44e5137293e855b1b7bc7e2c6f8cd796ffcb037"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000286bda1413a2df81731d4930ce2f862a35a609fe",
@@ -1896,7 +2244,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "WaBi"
+    "symbol": "WaBi",
+    "name": "WaBi",
+    "address": "0x286bda1413a2df81731d4930ce2f862a35a609fe"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000c5cea8292e514405967d958c2325106f2f48da77",
@@ -1906,7 +2256,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "PRFT"
+    "symbol": "PRFT",
+    "name": "Proof",
+    "address": "0xc5cea8292e514405967d958c2325106f2f48da77"
   },
   {
     "assetData": "0xf47261b000000000000000000000000008f5a9235b08173b7569f83645d2c7fb55e8ccd8",
@@ -1916,7 +2268,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "TNT"
+    "symbol": "TNT",
+    "name": "Tierion Network Token",
+    "address": "0x08f5a9235b08173b7569f83645d2c7fb55e8ccd8"
   },
   {
     "assetData": "0xf47261b00000000000000000000000004cc19356f2d37338b9802aa8e8fc58b0373296e7",
@@ -1926,7 +2280,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "KEY"
+    "symbol": "KEY",
+    "name": "SelfKey",
+    "address": "0x4cc19356f2d37338b9802aa8e8fc58b0373296e7"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000bcdfe338d55c061c084d81fd793ded00a27f226d",
@@ -1936,7 +2292,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "DML"
+    "symbol": "DML",
+    "name": "DML Token",
+    "address": "0xbcdfe338d55c061c084d81fd793ded00a27f226d"
   },
   {
     "assetData": "0xf47261b00000000000000000000000002fa32a39fc1c399e0cc7b2935868f5165de7ce97",
@@ -1946,7 +2304,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "PFR"
+    "symbol": "PFR",
+    "name": "PayFair Token",
+    "address": "0x2fa32a39fc1c399e0cc7b2935868f5165de7ce97"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000b97048628db6b661d4c2aa833e95dbe1a905b280",
@@ -1956,7 +2316,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "PAY"
+    "symbol": "PAY",
+    "name": "TenX Pay Token",
+    "address": "0xb97048628db6b661d4c2aa833e95dbe1a905b280"
   },
   {
     "assetData": "0xf47261b000000000000000000000000065be44c747988fbf606207698c944df4442efe19",
@@ -1966,7 +2328,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "FUCK"
+    "symbol": "FUCK",
+    "name": "Finally Usable Crypto Karma",
+    "address": "0x65be44c747988fbf606207698c944df4442efe19"
   },
   {
     "assetData": "0xf47261b00000000000000000000000007d5edcd23daa3fb94317d32ae253ee1af08ba14d",
@@ -1976,7 +2340,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "EBET"
+    "symbol": "EBET",
+    "name": "Ethbet",
+    "address": "0x7d5edcd23daa3fb94317d32ae253ee1af08ba14d"
   },
   {
     "assetData": "0xf47261b00000000000000000000000004de2573e27e648607b50e1cfff921a33e4a34405",
@@ -1986,7 +2352,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "LST"
+    "symbol": "LST",
+    "name": "Lendroid Support Token",
+    "address": "0x4de2573e27e648607b50e1cfff921a33e4a34405"
   },
   {
     "assetData": "0xf47261b00000000000000000000000002e071d2966aa7d8decb1005885ba1977d6038a65",
@@ -1996,7 +2364,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "ROL"
+    "symbol": "ROL",
+    "name": "DICE",
+    "address": "0x2e071d2966aa7d8decb1005885ba1977d6038a65"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000949bed886c739f1a3273629b3320db0c5024c719",
@@ -2006,7 +2376,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "AMIS"
+    "symbol": "AMIS",
+    "name": "AMIS",
+    "address": "0x949bed886c739f1a3273629b3320db0c5024c719"
   },
   {
     "assetData": "0xf47261b00000000000000000000000006c6ee5e31d828de241282b9606c8e98ea48526e2",
@@ -2016,7 +2388,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "HOT"
+    "symbol": "HOT",
+    "name": "HoloToken",
+    "address": "0x6c6ee5e31d828de241282b9606c8e98ea48526e2"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000543ff227f64aa17ea132bf9886cab5db55dcaddf",
@@ -2026,7 +2400,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "GEN"
+    "symbol": "GEN",
+    "name": "DAOstack",
+    "address": "0x543ff227f64aa17ea132bf9886cab5db55dcaddf"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000d99b8a7fa48e25cce83b81812220a3e03bf64e5f",
@@ -2036,7 +2412,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "SKM"
+    "symbol": "SKM",
+    "name": "Skrumble Token",
+    "address": "0xd99b8a7fa48e25cce83b81812220a3e03bf64e5f"
   },
   {
     "assetData": "0xf47261b00000000000000000000000000947b0e6d821378805c9598291385ce7c791a6b2",
@@ -2046,7 +2424,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "LND"
+    "symbol": "LND",
+    "name": "Lendingblock",
+    "address": "0x0947b0e6d821378805c9598291385ce7c791a6b2"
   },
   {
     "assetData": "0xf47261b000000000000000000000000048df4e0296f908ceab0428a5182d19b31fc037d6",
@@ -2056,7 +2436,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "FRV"
+    "symbol": "FRV",
+    "name": "Fitrova",
+    "address": "0x48df4e0296f908ceab0428a5182d19b31fc037d6"
   },
   {
     "assetData": "0xf47261b00000000000000000000000009af839687f6c94542ac5ece2e317daae355493a1",
@@ -2066,7 +2448,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "HOT"
+    "symbol": "HOT",
+    "name": "Hydro Protocol Token",
+    "address": "0x9af839687f6c94542ac5ece2e317daae355493a1"
   },
   {
     "assetData": "0xf47261b000000000000000000000000027dce1ec4d3f72c3e457cc50354f1f975ddef488",
@@ -2076,7 +2460,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "AIR"
+    "symbol": "AIR",
+    "name": "AirToken",
+    "address": "0x27dce1ec4d3f72c3e457cc50354f1f975ddef488"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000bbff862d906e348e9946bfb2132ecb157da3d4b4",
@@ -2086,7 +2472,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "SS"
+    "symbol": "SS",
+    "name": "Sharder",
+    "address": "0xbbff862d906e348e9946bfb2132ecb157da3d4b4"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000bdc5bac39dbe132b1e030e898ae3830017d7d969",
@@ -2096,7 +2484,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "SNOV"
+    "symbol": "SNOV",
+    "name": "Snovio",
+    "address": "0xbdc5bac39dbe132b1e030e898ae3830017d7d969"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000fa10e13fe555760a5297dc14eb6562a1a53e4e37",
@@ -2106,7 +2496,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "ETHX-5-18"
+    "symbol": "ETHX-5-18",
+    "name": "EthereumX May 2018 Set",
+    "address": "0xfa10e13fe555760a5297dc14eb6562a1a53e4e37"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000fec0cf7fe078a500abf15f1284958f22049c2c7e",
@@ -2116,7 +2508,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "ART"
+    "symbol": "ART",
+    "name": "Maecenas ",
+    "address": "0xfec0cf7fe078a500abf15f1284958f22049c2c7e"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000923108a439c4e8c2315c4f6521e5ce95b44e9b4c",
@@ -2126,7 +2520,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "EVE"
+    "symbol": "EVE",
+    "name": "Devery.io",
+    "address": "0x923108a439c4e8c2315c4f6521e5ce95b44e9b4c"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000b98d4c97425d9908e66e53a6fdf673acca0be986",
@@ -2136,7 +2532,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "ABT"
+    "symbol": "ABT",
+    "name": "ArcBlock",
+    "address": "0xb98d4c97425d9908e66e53a6fdf673acca0be986"
   },
   {
     "assetData": "0xf47261b00000000000000000000000003618516f45cd3c913f81f9987af41077932bc40d",
@@ -2146,7 +2544,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "PCL"
+    "symbol": "PCL",
+    "name": "Peculium",
+    "address": "0x3618516f45cd3c913f81f9987af41077932bc40d"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000e2e6d4be086c6938b53b22144855eef674281639",
@@ -2156,7 +2556,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "LNK"
+    "symbol": "LNK",
+    "name": "Link Platform",
+    "address": "0xe2e6d4be086c6938b53b22144855eef674281639"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000d7732e3783b0047aa251928960063f863ad022d8",
@@ -2166,7 +2568,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "BRM"
+    "symbol": "BRM",
+    "name": "BrahmaOS",
+    "address": "0xd7732e3783b0047aa251928960063f863ad022d8"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000f6b55acbbc49f4524aa48d19281a9a77c54de10f",
@@ -2176,7 +2580,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "WLK"
+    "symbol": "WLK",
+    "name": "WOLK TOKEN",
+    "address": "0xf6b55acbbc49f4524aa48d19281a9a77c54de10f"
   },
   {
     "assetData": "0xf47261b00000000000000000000000008db54ca569d3019a2ba126d03c37c44b5ef81ef6",
@@ -2186,7 +2592,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "DXT"
+    "symbol": "DXT",
+    "name": "DataWallet Token",
+    "address": "0x8db54ca569d3019a2ba126d03c37c44b5ef81ef6"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000340d2bde5eb28c1eed91b2f790723e3b160613b7",
@@ -2196,7 +2604,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "VEE"
+    "symbol": "VEE",
+    "name": "BLOCKv Token",
+    "address": "0x340d2bde5eb28c1eed91b2f790723e3b160613b7"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000b24754be79281553dc1adc160ddf5cd9b74361a4",
@@ -2206,7 +2616,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "XRL"
+    "symbol": "XRL",
+    "name": "RIALTO",
+    "address": "0xb24754be79281553dc1adc160ddf5cd9b74361a4"
   },
   {
     "assetData": "0xf47261b00000000000000000000000003883f5e181fccaf8410fa61e12b59bad963fb645",
@@ -2216,7 +2628,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "THETA"
+    "symbol": "THETA",
+    "name": "Theta Token",
+    "address": "0x3883f5e181fccaf8410fa61e12b59bad963fb645"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000e25bcec5d3801ce3a794079bf94adf1b8ccd802d",
@@ -2226,7 +2640,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "MAN"
+    "symbol": "MAN",
+    "name": "MATRIX AI Network",
+    "address": "0xe25bcec5d3801ce3a794079bf94adf1b8ccd802d"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000d49ff13661451313ca1553fd6954bd1d9b6e02b9",
@@ -2236,7 +2652,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "ELEC"
+    "symbol": "ELEC",
+    "name": "ElectrifyAsia",
+    "address": "0xd49ff13661451313ca1553fd6954bd1d9b6e02b9"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000672a1ad4f667fb18a333af13667aa0af1f5b5bdd",
@@ -2246,7 +2664,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "CRED"
+    "symbol": "CRED",
+    "name": "Verify Token",
+    "address": "0x672a1ad4f667fb18a333af13667aa0af1f5b5bdd"
   },
   {
     "assetData": "0xf47261b00000000000000000000000008b353021189375591723e7384262f45709a3c3dc",
@@ -2256,7 +2676,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "TOMO"
+    "symbol": "TOMO",
+    "name": "Tomocoin",
+    "address": "0x8b353021189375591723e7384262f45709a3c3dc"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000a15c7ebe1f07caf6bff097d8a589fb8ac49ae5b3",
@@ -2266,7 +2688,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "NPXS"
+    "symbol": "NPXS",
+    "name": "Pundi X Token",
+    "address": "0xa15c7ebe1f07caf6bff097d8a589fb8ac49ae5b3"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000d0352a019e9ab9d757776f532377aaebd36fd541",
@@ -2276,7 +2700,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "FSN"
+    "symbol": "FSN",
+    "name": "Fusion Token",
+    "address": "0xd0352a019e9ab9d757776f532377aaebd36fd541"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000bfd16e47a1b6ad4adbe7ab2a1cb624c6c8b1bc3d",
@@ -2286,7 +2712,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "ACO"
+    "symbol": "ACO",
+    "name": "AMPLE! Coin",
+    "address": "0xbfd16e47a1b6ad4adbe7ab2a1cb624c6c8b1bc3d"
   },
   {
     "assetData": "0xf47261b000000000000000000000000082125afe01819dff1535d0d6276d57045291b6c0",
@@ -2296,7 +2724,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "MRL"
+    "symbol": "MRL",
+    "name": "Marcelo",
+    "address": "0x82125afe01819dff1535d0d6276d57045291b6c0"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000d6e1401a079922469e9b965cb090ea6ff64c6839",
@@ -2306,16 +2736,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "HOLD"
-  },
-  {
-    "assetData": "0xf47261b000000000000000000000000001da95f253122636d0776017311892835a15d9dd",
-    "minAmount": "1",
-    "maxAmount": "999999999999999999999",
-    "precision": 8,
-    "relayers": [
-      "https://sra.bamboorelay.com/0x/v2/"
-    ]
+    "symbol": "HOLD",
+    "name": "HOLD",
+    "address": "0xd6e1401a079922469e9b965cb090ea6ff64c6839"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000c86d054809623432210c107af2e3f619dcfbf652",
@@ -2325,7 +2748,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "UPP"
+    "symbol": "UPP",
+    "name": "SENTINEL PROTOCOL",
+    "address": "0xc86d054809623432210c107af2e3f619dcfbf652"
   },
   {
     "assetData": "0xf47261b00000000000000000000000000db8d8b76bc361bacbb72e2c491e06085a97ab31",
@@ -2335,7 +2760,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "IQN"
+    "symbol": "IQN",
+    "name": "iQeon",
+    "address": "0x0db8d8b76bc361bacbb72e2c491e06085a97ab31"
   },
   {
     "assetData": "0xf47261b00000000000000000000000004a42d2c580f83dce404acad18dab26db11a1750e",
@@ -2345,7 +2772,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "RLX"
+    "symbol": "RLX",
+    "name": "Relex",
+    "address": "0x4a42d2c580f83dce404acad18dab26db11a1750e"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000e5f166c0d8872b68790061317bb6cca04582c912",
@@ -2355,7 +2784,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "TFD"
+    "symbol": "TFD",
+    "name": "TE-FOOD",
+    "address": "0xe5f166c0d8872b68790061317bb6cca04582c912"
   },
   {
     "assetData": "0xf47261b00000000000000000000000001122b6a0e00dce0563082b6e2953f3a943855c1f",
@@ -2365,7 +2796,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "CENNZ"
+    "symbol": "CENNZ",
+    "name": "Centrality Token",
+    "address": "0x1122b6a0e00dce0563082b6e2953f3a943855c1f"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000ea5f88e54d982cbb0c441cde4e79bc305e5b43bc",
@@ -2375,7 +2808,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "PARETO"
+    "symbol": "PARETO",
+    "name": "Pareto Network Token",
+    "address": "0xea5f88e54d982cbb0c441cde4e79bc305e5b43bc"
   },
   {
     "assetData": "0xf47261b00000000000000000000000001961b3331969ed52770751fc718ef530838b6dee",
@@ -2385,7 +2820,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "BDG"
+    "symbol": "BDG",
+    "name": "BitDegree Token",
+    "address": "0x1961b3331969ed52770751fc718ef530838b6dee"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000f4065e4477e91c177ded71a7a6fb5ee07dc46bc9",
@@ -2395,7 +2832,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "CEDEX"
+    "symbol": "CEDEX",
+    "name": "CEDEX",
+    "address": "0xf4065e4477e91c177ded71a7a6fb5ee07dc46bc9"
   },
   {
     "assetData": "0xf47261b00000000000000000000000009d9223436ddd466fc247e9dbbd20207e640fef58",
@@ -2405,7 +2844,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "OLE"
+    "symbol": "OLE",
+    "name": "Olive",
+    "address": "0x9d9223436ddd466fc247e9dbbd20207e640fef58"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000103c3a209da59d3e7c4a89307e66521e081cfdf0",
@@ -2415,7 +2856,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "GVT"
+    "symbol": "GVT",
+    "name": "Genesis Vision Token",
+    "address": "0x103c3a209da59d3e7c4a89307e66521e081cfdf0"
   },
   {
     "assetData": "0xf47261b000000000000000000000000026e75307fc0c021472feb8f727839531f112f317",
@@ -2425,7 +2868,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "C20"
+    "symbol": "C20",
+    "name": "Crypto20",
+    "address": "0x26e75307fc0c021472feb8f727839531f112f317"
   },
   {
     "assetData": "0xf47261b00000000000000000000000000d88ed6e74bbfd96b831231638b66c05571e824f",
@@ -2435,7 +2880,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "AVT"
+    "symbol": "AVT",
+    "name": "AVENTUS",
+    "address": "0x0d88ed6e74bbfd96b831231638b66c05571e824f"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000d4fa1460f537bb9085d22c7bccb5dd450ef28e3a",
@@ -2445,7 +2892,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "PPT"
+    "symbol": "PPT",
+    "name": "Populous Platform",
+    "address": "0xd4fa1460f537bb9085d22c7bccb5dd450ef28e3a"
   },
   {
     "assetData": "0xf47261b00000000000000000000000000bb217e40f8a5cb79adf04e1aab60e5abd0dfc1e",
@@ -2455,7 +2904,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "SWFTC"
+    "symbol": "SWFTC",
+    "name": "SwftCoin",
+    "address": "0x0bb217e40f8a5cb79adf04e1aab60e5abd0dfc1e"
   },
   {
     "assetData": "0xf47261b00000000000000000000000004dcadd9adfd450c2ef997bb71888c2995e2d33a0",
@@ -2465,7 +2916,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "UNC"
+    "symbol": "UNC",
+    "name": "UniCoin",
+    "address": "0x4dcadd9adfd450c2ef997bb71888c2995e2d33a0"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000eeac3f8da16bb0485a4a11c5128b0518dac81448",
@@ -2475,7 +2928,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "TEU"
+    "symbol": "TEU",
+    "name": "20-footEqvUnit",
+    "address": "0xeeac3f8da16bb0485a4a11c5128b0518dac81448"
   },
   {
     "assetData": "0xf47261b00000000000000000000000004a6058666cf1057eac3cd3a5a614620547559fc9",
@@ -2485,7 +2940,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "BBK"
+    "symbol": "BBK",
+    "name": "BrickblockToken",
+    "address": "0x4a6058666cf1057eac3cd3a5a614620547559fc9"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000ffe02ee4c69edf1b340fcad64fbd6b37a7b9e265",
@@ -2495,7 +2952,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "NANJ"
+    "symbol": "NANJ",
+    "name": "NANJCOIN",
+    "address": "0xffe02ee4c69edf1b340fcad64fbd6b37a7b9e265"
   },
   {
     "assetData": "0xf47261b000000000000000000000000028be79bd9ac609876b03f692d8d85278d8cbc2f3",
@@ -2505,7 +2964,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "QSHC"
+    "symbol": "QSHC",
+    "name": "QSHUCOIN",
+    "address": "0x28be79bd9ac609876b03f692d8d85278d8cbc2f3"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000e11609b9a51caf7d32a55896386ac52ed90e66f1",
@@ -2515,7 +2976,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "CMIT"
+    "symbol": "CMIT",
+    "name": "COMIKETCOIN",
+    "address": "0xe11609b9a51caf7d32a55896386ac52ed90e66f1"
   },
   {
     "assetData": "0xf47261b000000000000000000000000086c8bf8532aa2601151c9dbbf4e4c4804e042571",
@@ -2525,7 +2988,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "SIM"
+    "symbol": "SIM",
+    "name": "Simoleon",
+    "address": "0x86c8bf8532aa2601151c9dbbf4e4c4804e042571"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000e531642e9bb5d027e9c20e03284287b97919a9a5",
@@ -2535,7 +3000,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "FAITH"
+    "symbol": "FAITH",
+    "name": "FaithCoin",
+    "address": "0xe531642e9bb5d027e9c20e03284287b97919a9a5"
   },
   {
     "assetData": "0xf47261b000000000000000000000000092736b3bff1bbd72a72478d78f18a6ab9b68b791",
@@ -2545,7 +3012,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "SAT"
+    "symbol": "SAT",
+    "name": "Satisfaction Token",
+    "address": "0x92736b3bff1bbd72a72478d78f18a6ab9b68b791"
   },
   {
     "assetData": "0xf47261b00000000000000000000000004ce6b362bc77a24966dda9078f9cef81b3b886a7",
@@ -2555,7 +3024,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "NPER"
+    "symbol": "NPER",
+    "name": "NPER",
+    "address": "0x4ce6b362bc77a24966dda9078f9cef81b3b886a7"
   },
   {
     "assetData": "0xf47261b000000000000000000000000047bc01597798dcd7506dcca36ac4302fc93a8cfb",
@@ -2565,7 +3036,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "CMCT"
+    "symbol": "CMCT",
+    "name": "Crowd Machine Compute Token",
+    "address": "0x47bc01597798dcd7506dcca36ac4302fc93a8cfb"
   },
   {
     "assetData": "0xf47261b00000000000000000000000006ba460ab75cd2c56343b3517ffeba60748654d26",
@@ -2575,7 +3048,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "UP"
+    "symbol": "UP",
+    "name": "UpToken",
+    "address": "0x6ba460ab75cd2c56343b3517ffeba60748654d26"
   },
   {
     "assetData": "0xf47261b000000000000000000000000068d57c9a1c35f63e2c83ee8e49a64e9d70528d25",
@@ -2585,7 +3060,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "SRN"
+    "symbol": "SRN",
+    "name": "SIRIN",
+    "address": "0x68d57c9a1c35f63e2c83ee8e49a64e9d70528d25"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000558ec3152e2eb2174905cd19aea4e34a23de9ad6",
@@ -2595,7 +3072,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "BRD"
+    "symbol": "BRD",
+    "name": "Bread Token",
+    "address": "0x558ec3152e2eb2174905cd19aea4e34a23de9ad6"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000c5bbae50781be1669306b9e001eff57a2957b09d",
@@ -2605,7 +3084,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "GTO"
+    "symbol": "GTO",
+    "name": "Gifto",
+    "address": "0xc5bbae50781be1669306b9e001eff57a2957b09d"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000d0d6d6c5fe4a677d343cc433536bb717bae167dd",
@@ -2615,7 +3096,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "ADT"
+    "symbol": "ADT",
+    "name": "AdToken",
+    "address": "0xd0d6d6c5fe4a677d343cc433536bb717bae167dd"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000436f0f3a982074c4a05084485d421466a994fe53",
@@ -2625,7 +3108,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "RTE"
+    "symbol": "RTE",
+    "name": "Rate3",
+    "address": "0x436f0f3a982074c4a05084485d421466a994fe53"
   },
   {
     "assetData": "0xf47261b000000000000000000000000063f584fa56e60e4d0fe8802b27c7e6e3b33e007f",
@@ -2635,7 +3120,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "BOX"
+    "symbol": "BOX",
+    "name": "BOX Token",
+    "address": "0x63f584fa56e60e4d0fe8802b27c7e6e3b33e007f"
   },
   {
     "assetData": "0xf47261b00000000000000000000000000f8c45b896784a1e408526b9300519ef8660209c",
@@ -2645,7 +3132,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "XMX"
+    "symbol": "XMX",
+    "name": "XMAX",
+    "address": "0x0f8c45b896784a1e408526b9300519ef8660209c"
   },
   {
     "assetData": "0xf47261b00000000000000000000000004689a4e169eb39cc9078c0940e21ff1aa8a39b9c",
@@ -2655,7 +3144,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "PTT"
+    "symbol": "PTT",
+    "name": "Proton Token",
+    "address": "0x4689a4e169eb39cc9078c0940e21ff1aa8a39b9c"
   },
   {
     "assetData": "0xf47261b00000000000000000000000008713d26637cf49e1b6b4a7ce57106aabc9325343",
@@ -2665,7 +3156,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "CNN"
+    "symbol": "CNN",
+    "name": "CNN Token",
+    "address": "0x8713d26637cf49e1b6b4a7ce57106aabc9325343"
   },
   {
     "assetData": "0xf47261b00000000000000000000000004e15361fd6b4bb609fa63c81a2be19d873717870",
@@ -2675,7 +3168,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "FTM"
+    "symbol": "FTM",
+    "name": "Fantom Token",
+    "address": "0x4e15361fd6b4bb609fa63c81a2be19d873717870"
   },
   {
     "assetData": "0xf47261b000000000000000000000000037e8789bb9996cac9156cd5f5fd32599e6b91289",
@@ -2685,7 +3180,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "AID"
+    "symbol": "AID",
+    "name": "AidCoin",
+    "address": "0x37e8789bb9996cac9156cd5f5fd32599e6b91289"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000ac709fcb44a43c35f0da4e3163b117a17f3770f5",
@@ -2695,7 +3192,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "ARC"
+    "symbol": "ARC",
+    "name": "Arcade Token",
+    "address": "0xac709fcb44a43c35f0da4e3163b117a17f3770f5"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000f8c595d070d104377f58715ce2e6c93e49a87f3c",
@@ -2705,7 +3204,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "DACC"
+    "symbol": "DACC",
+    "name": "Decentralized Accessible Content Chain",
+    "address": "0xf8c595d070d104377f58715ce2e6c93e49a87f3c"
   },
   {
     "assetData": "0xf47261b00000000000000000000000008f3470a7388c05ee4e7af3d01d8c722b0ff52374",
@@ -2715,7 +3216,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "VERI"
+    "symbol": "VERI",
+    "name": "Veritaseum",
+    "address": "0x8f3470a7388c05ee4e7af3d01d8c722b0ff52374"
   },
   {
     "assetData": "0xf47261b00000000000000000000000003893b9422cd5d70a81edeffe3d5a1c6a978310bb",
@@ -2725,7 +3228,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "MITH"
+    "symbol": "MITH",
+    "name": "Mithril Token",
+    "address": "0x3893b9422cd5d70a81edeffe3d5a1c6a978310bb"
   },
   {
     "assetData": "0xf47261b00000000000000000000000001c4481750daa5ff521a2a7490d9981ed46465dbd",
@@ -2735,7 +3240,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "BCPT"
+    "symbol": "BCPT",
+    "name": "BLOCKMASON CREDIT PROTOCOL TOKEN",
+    "address": "0x1c4481750daa5ff521a2a7490d9981ed46465dbd"
   },
   {
     "assetData": "0xf47261b00000000000000000000000002ccbff3a042c68716ed2a2cb0c544a9f1d1935e1",
@@ -2745,7 +3252,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "DMT"
+    "symbol": "DMT",
+    "name": "DMarket Token",
+    "address": "0x2ccbff3a042c68716ed2a2cb0c544a9f1d1935e1"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000a849eaae994fb86afa73382e9bd88c2b6b18dc71",
@@ -2755,7 +3264,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "MVL"
+    "symbol": "MVL",
+    "name": "Mass Vehicle Ledger Token",
+    "address": "0xa849eaae994fb86afa73382e9bd88c2b6b18dc71"
   },
   {
     "assetData": "0xf47261b000000000000000000000000055296f69f40ea6d20e478533c15a6b08b654e758",
@@ -2765,7 +3276,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "XYO"
+    "symbol": "XYO",
+    "name": "XY Oracle",
+    "address": "0x55296f69f40ea6d20e478533c15a6b08b654e758"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000755eb14d2feff2939eb3026f5cad9d03775b9ff4",
@@ -2775,7 +3288,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "BUNNY"
+    "symbol": "BUNNY",
+    "name": "BunnyToken",
+    "address": "0x755eb14d2feff2939eb3026f5cad9d03775b9ff4"
   },
   {
     "assetData": "0xf47261b00000000000000000000000008fe19c447821b4cdcdd5012bca1b5469ca96d80d",
@@ -2785,7 +3300,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "ETIT"
+    "symbol": "ETIT",
+    "name": "ETH.TOWN Token",
+    "address": "0x8fe19c447821b4cdcdd5012bca1b5469ca96d80d"
   },
   {
     "assetData": "0xf47261b000000000000000000000000069b148395ce0015c13e36bffbad63f49ef874e03",
@@ -2795,7 +3312,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "DTA"
+    "symbol": "DTA",
+    "name": "Data Token",
+    "address": "0x69b148395ce0015c13e36bffbad63f49ef874e03"
   },
   {
     "assetData": "0xf47261b000000000000000000000000036ec460817aa2fb8990b20dc58a7c6f86e7fc48d",
@@ -2805,7 +3324,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "UNIX"
+    "symbol": "UNIX",
+    "name": "UNIWORTH COIN",
+    "address": "0x36ec460817aa2fb8990b20dc58a7c6f86e7fc48d"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000910dfc18d6ea3d6a7124a6f8b5458f281060fa4c",
@@ -2815,7 +3336,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "X8X"
+    "symbol": "X8X",
+    "name": "X8XToken",
+    "address": "0x910dfc18d6ea3d6a7124a6f8b5458f281060fa4c"
   },
   {
     "assetData": "0xf47261b000000000000000000000000042c8414c5a6bdaf193e459ac26ed0ce11a44e9b4",
@@ -2825,7 +3348,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "TMB"
+    "symbol": "TMB",
+    "name": "TemboCoin",
+    "address": "0x42c8414c5a6bdaf193e459ac26ed0ce11a44e9b4"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000f3cfbca4e083b1418f89545754c7da90d2418b10",
@@ -2835,7 +3360,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "GMBEL"
+    "symbol": "GMBEL",
+    "name": "G-Mbel",
+    "address": "0xf3cfbca4e083b1418f89545754c7da90d2418b10"
   },
   {
     "assetData": "0xf47261b000000000000000000000000058a4884182d9e835597f405e5f258290e46ae7c2",
@@ -2845,7 +3372,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "NOAH"
+    "symbol": "NOAH",
+    "name": "NOAHCOIN",
+    "address": "0x58a4884182d9e835597f405e5f258290e46ae7c2"
   },
   {
     "assetData": "0xf47261b000000000000000000000000029539bcb0b0fc23b9a49dfd87a68f0a0f5765ea7",
@@ -2855,7 +3384,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "SDC"
+    "symbol": "SDC",
+    "name": "Soundcoins",
+    "address": "0x29539bcb0b0fc23b9a49dfd87a68f0a0f5765ea7"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000d0929d411954c47438dc1d871dd6081f5c5e149c",
@@ -2865,7 +3396,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "RFR"
+    "symbol": "RFR",
+    "name": "Refereum",
+    "address": "0xd0929d411954c47438dc1d871dd6081f5c5e149c"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000f19eac69f9566f0b40660bd0cc16234330f38456",
@@ -2875,7 +3408,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "CRAFTR"
+    "symbol": "CRAFTR",
+    "name": "CraftR",
+    "address": "0xf19eac69f9566f0b40660bd0cc16234330f38456"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000f5ed2dc77f0d1ea7f106ecbd1850e406adc41b51",
@@ -2885,7 +3420,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "OCEAN"
+    "symbol": "OCEAN",
+    "name": "The Ocean Token",
+    "address": "0xf5ed2dc77f0d1ea7f106ecbd1850e406adc41b51"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000c80c5e40220172b36adee2c951f26f2a577810c5",
@@ -2895,7 +3432,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "BNK"
+    "symbol": "BNK",
+    "name": "Banker Token",
+    "address": "0xc80c5e40220172b36adee2c951f26f2a577810c5"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000c324a2f6b05880503444451b8b27e6f9e63287cb",
@@ -2905,7 +3444,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "XUC"
+    "symbol": "XUC",
+    "name": "Exchange Union Coin",
+    "address": "0xc324a2f6b05880503444451b8b27e6f9e63287cb"
   },
   {
     "assetData": "0xf47261b000000000000000000000000035a69642857083ba2f30bfab735dacc7f0bac969",
@@ -2915,7 +3456,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "BBN"
+    "symbol": "BBN",
+    "name": "BBNToken",
+    "address": "0x35a69642857083ba2f30bfab735dacc7f0bac969"
   },
   {
     "assetData": "0xf47261b00000000000000000000000004672bad527107471cb5067a887f4656d585a8a31",
@@ -2925,7 +3468,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "DROP"
+    "symbol": "DROP",
+    "name": "Dropil",
+    "address": "0x4672bad527107471cb5067a887f4656d585a8a31"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000c275865a6cce78398e94cb2af29fa0d787b7f7eb",
@@ -2935,7 +3480,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "RSCT"
+    "symbol": "RSCT",
+    "name": "RiseCoin Token",
+    "address": "0xc275865a6cce78398e94cb2af29fa0d787b7f7eb"
   },
   {
     "assetData": "0xf47261b00000000000000000000000000879e0c9822b75f31f0b0ed2a30be9f484a57c2f",
@@ -2945,7 +3492,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "LTG"
+    "symbol": "LTG",
+    "name": "LiteCoinGold",
+    "address": "0x0879e0c9822b75f31f0b0ed2a30be9f484a57c2f"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000f1ca9cb74685755965c7458528a36934df52a3ef",
@@ -2955,7 +3504,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "AVINOC"
+    "symbol": "AVINOC",
+    "name": "AVINOC Token",
+    "address": "0xf1ca9cb74685755965c7458528a36934df52a3ef"
   },
   {
     "assetData": "0xf47261b00000000000000000000000009195e00402abe385f2d00a32af40b271f2e87925",
@@ -2965,7 +3516,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "ETA"
+    "symbol": "ETA",
+    "name": "ETHEERA",
+    "address": "0x9195e00402abe385f2d00a32af40b271f2e87925"
   },
   {
     "assetData": "0xf47261b00000000000000000000000001a7a8bd9106f2b8d977e08582dc7d24c723ab0db",
@@ -2975,7 +3528,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "APPC"
+    "symbol": "APPC",
+    "name": "AppCoins",
+    "address": "0x1a7a8bd9106f2b8d977e08582dc7d24c723ab0db"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000f0ee6b27b759c9893ce4f094b49ad28fd15a23e4",
@@ -2985,7 +3540,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "ENG"
+    "symbol": "ENG",
+    "name": "Enigma",
+    "address": "0xf0ee6b27b759c9893ce4f094b49ad28fd15a23e4"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000f629cbd94d3791c9250152bd8dfbdf380e2a3b9c",
@@ -2995,7 +3552,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "ENJ"
+    "symbol": "ENJ",
+    "name": "Enjin Coin",
+    "address": "0xf629cbd94d3791c9250152bd8dfbdf380e2a3b9c"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000fedae5642668f8636a11987ff386bfd215f942ee",
@@ -3005,7 +3564,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "PAL"
+    "symbol": "PAL",
+    "name": "PolicyPal Network Token",
+    "address": "0xfedae5642668f8636a11987ff386bfd215f942ee"
   },
   {
     "assetData": "0xf47261b000000000000000000000000084f7c44b6fed1080f647e354d552595be2cc602f",
@@ -3015,7 +3576,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "BBO"
+    "symbol": "BBO",
+    "name": "Bigbom",
+    "address": "0x84f7c44b6fed1080f647e354d552595be2cc602f"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000fe5f141bf94fe84bc28ded0ab966c16b17490657",
@@ -3025,7 +3588,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "LBA"
+    "symbol": "LBA",
+    "name": "LibraToken",
+    "address": "0xfe5f141bf94fe84bc28ded0ab966c16b17490657"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000f263292e14d9d8ecd55b58dad1f1df825a874b7c",
@@ -3035,7 +3600,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "EDU"
+    "symbol": "EDU",
+    "name": "EduCoin",
+    "address": "0xf263292e14d9d8ecd55b58dad1f1df825a874b7c"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000442bc47357919446eabc18c7211e57a13d983469",
@@ -3045,7 +3612,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "CHAT"
+    "symbol": "CHAT",
+    "name": "Chatcoin",
+    "address": "0x442bc47357919446eabc18c7211e57a13d983469"
   },
   {
     "assetData": "0xf47261b000000000000000000000000066186008c1050627f979d464eabb258860563dbe",
@@ -3055,7 +3624,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "MDS"
+    "symbol": "MDS",
+    "name": "MediShares Token",
+    "address": "0x66186008c1050627f979d464eabb258860563dbe"
   },
   {
     "assetData": "0xf47261b00000000000000000000000003136ef851592acf49ca4c825131e364170fa32b3",
@@ -3065,7 +3636,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "COFI"
+    "symbol": "COFI",
+    "name": "CoinFi",
+    "address": "0x3136ef851592acf49ca4c825131e364170fa32b3"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000865ec58b06bf6305b886793aa20a2da31d034e68",
@@ -3075,7 +3648,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "MOC"
+    "symbol": "MOC",
+    "name": "Moss Coin",
+    "address": "0x865ec58b06bf6305b886793aa20a2da31d034e68"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000beb48b6c36e57afe704e3d467d76394bace472a9",
@@ -3085,7 +3660,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "TKC"
+    "symbol": "TKC",
+    "name": "Trakcoin",
+    "address": "0xbeb48b6c36e57afe704e3d467d76394bace472a9"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000d47e449c721eb270341b690960576c333f2c1174",
@@ -3095,7 +3672,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "BTCR"
+    "symbol": "BTCR",
+    "name": "BTC Ramp",
+    "address": "0xd47e449c721eb270341b690960576c333f2c1174"
   },
   {
     "assetData": "0xf47261b00000000000000000000000003588531e430dcce11f7c3370ce66ab36233f8d3c",
@@ -3105,7 +3684,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "AUDR"
+    "symbol": "AUDR",
+    "name": "AUD Ramp",
+    "address": "0x3588531e430dcce11f7c3370ce66ab36233f8d3c"
   },
   {
     "assetData": "0xf47261b000000000000000000000000005f49d328452e284a5cb4a113660e9c3a8a7a62c",
@@ -3115,7 +3696,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "VXC"
+    "symbol": "VXC",
+    "name": "VibeXChain",
+    "address": "0x05f49d328452e284a5cb4a113660e9c3a8a7a62c"
   },
   {
     "assetData": "0xf47261b00000000000000000000000004257d36df231dc71f7b7a6e1be3ef9c99b9181fd",
@@ -3125,7 +3708,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "SST"
+    "symbol": "SST",
+    "name": "Super Star Token",
+    "address": "0x4257d36df231dc71f7b7a6e1be3ef9c99b9181fd"
   },
   {
     "assetData": "0xf47261b00000000000000000000000002604fa406be957e542beb89e6754fcde6815e83f",
@@ -3135,7 +3720,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "PKT"
+    "symbol": "PKT",
+    "name": "Playkey",
+    "address": "0x2604fa406be957e542beb89e6754fcde6815e83f"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000a54ddc7b3cce7fc8b1e3fa0256d0db80d2c10970",
@@ -3145,7 +3732,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "NDC"
+    "symbol": "NDC",
+    "name": "NEVERDIE",
+    "address": "0xa54ddc7b3cce7fc8b1e3fa0256d0db80d2c10970"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000cb94be6f13a1182e4a4b6140cb7bf2025d28e41b",
@@ -3155,7 +3744,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "TRST"
+    "symbol": "TRST",
+    "name": "Trustcoin",
+    "address": "0xcb94be6f13a1182e4a4b6140cb7bf2025d28e41b"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000d850942ef8811f2a866692a623011bde52a462c1",
@@ -3165,7 +3756,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "VEN"
+    "symbol": "VEN",
+    "name": "VeChain Token",
+    "address": "0xd850942ef8811f2a866692a623011bde52a462c1"
   },
   {
     "assetData": "0xf47261b00000000000000000000000009e46a38f5daabe8683e10793b06749eef7d733d1",
@@ -3175,7 +3768,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "NCT"
+    "symbol": "NCT",
+    "name": "Nectar",
+    "address": "0x9e46a38f5daabe8683e10793b06749eef7d733d1"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000b9e7f8568e08d5659f5d29c4997173d84cdf2607",
@@ -3185,7 +3780,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "SWT"
+    "symbol": "SWT",
+    "name": "Swarm City Token",
+    "address": "0xb9e7f8568e08d5659f5d29c4997173d84cdf2607"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000af30d2a7e90d7dc361c8c4585e9bb7d2f6f15bc7",
@@ -3195,7 +3792,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "1ST"
+    "symbol": "1ST",
+    "name": "Firstblood",
+    "address": "0xaf30d2a7e90d7dc361c8c4585e9bb7d2f6f15bc7"
   },
   {
     "assetData": "0xf47261b00000000000000000000000001234567461d3f8db7496581774bd869c83d51c93",
@@ -3205,7 +3804,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "CAT"
+    "symbol": "CAT",
+    "name": "BitClave",
+    "address": "0x1234567461d3f8db7496581774bd869c83d51c93"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000957c30ab0426e0c93cd8241e2c60392d08c6ac8e",
@@ -3215,7 +3816,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "MOD"
+    "symbol": "MOD",
+    "name": "Modum Token",
+    "address": "0x957c30ab0426e0c93cd8241e2c60392d08c6ac8e"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000fa05a73ffe78ef8f1a739473e462c54bae6567d9",
@@ -3225,7 +3828,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "LUN"
+    "symbol": "LUN",
+    "name": "Lunyr Token",
+    "address": "0xfa05a73ffe78ef8f1a739473e462c54bae6567d9"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000e7775a6e9bcf904eb39da2b68c5efb4f9360e08c",
@@ -3235,7 +3840,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "TAAS"
+    "symbol": "TAAS",
+    "name": "Token-as-a-Service",
+    "address": "0xe7775a6e9bcf904eb39da2b68c5efb4f9360e08c"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000151202c9c18e495656f372281f493eb7698961d5",
@@ -3245,7 +3852,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "DEB"
+    "symbol": "DEB",
+    "name": "DEBITUM",
+    "address": "0x151202c9c18e495656f372281f493eb7698961d5"
   },
   {
     "assetData": "0xf47261b00000000000000000000000005c543e7ae0a1104f78406c340e9c64fd9fce5170",
@@ -3255,7 +3864,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "VSL"
+    "symbol": "VSL",
+    "name": "vSlice",
+    "address": "0x5c543e7ae0a1104f78406c340e9c64fd9fce5170"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000aaaf91d9b90df800df4f55c205fd6989c977e73a",
@@ -3265,7 +3876,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "TKN"
+    "symbol": "TKN",
+    "name": "Monolith TKN",
+    "address": "0xaaaf91d9b90df800df4f55c205fd6989c977e73a"
   },
   {
     "assetData": "0xf47261b00000000000000000000000006531f133e6deebe7f2dce5a0441aa7ef330b4e53",
@@ -3275,7 +3888,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "TIME"
+    "symbol": "TIME",
+    "name": "Chronobank TIME",
+    "address": "0x6531f133e6deebe7f2dce5a0441aa7ef330b4e53"
   },
   {
     "assetData": "0xf47261b00000000000000000000000005b26c5d0772e5bbac8b3182ae9a13f9bb2d03765",
@@ -3285,7 +3900,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "LEDU"
+    "symbol": "LEDU",
+    "name": "Education Ecosystem",
+    "address": "0x5b26c5d0772e5bbac8b3182ae9a13f9bb2d03765"
   },
   {
     "assetData": "0xf47261b00000000000000000000000000d262e5dc4a06a0f1c90ce79c7a60c09dfc884e4",
@@ -3295,7 +3912,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "J8T"
+    "symbol": "J8T",
+    "name": "J8T Token",
+    "address": "0x0d262e5dc4a06a0f1c90ce79c7a60c09dfc884e4"
   },
   {
     "assetData": "0xf47261b00000000000000000000000000e8d6b471e332f140e7d9dbb99e5e3822f728da6",
@@ -3305,7 +3924,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "ABYSS"
+    "symbol": "ABYSS",
+    "name": "ABYSS",
+    "address": "0x0e8d6b471e332f140e7d9dbb99e5e3822f728da6"
   },
   {
     "assetData": "0xf47261b00000000000000000000000006888a16ea9792c15a4dcf2f6c623d055c8ede792",
@@ -3315,7 +3936,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "SIG"
+    "symbol": "SIG",
+    "name": "Signals",
+    "address": "0x6888a16ea9792c15a4dcf2f6c623d055c8ede792"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000358d12436080a01a16f711014610f8a4c2c2d233",
@@ -3325,7 +3948,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "PXS"
+    "symbol": "PXS",
+    "name": "Pundi X Token",
+    "address": "0x358d12436080a01a16f711014610f8a4c2c2d233"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000b5dbc6d3cf380079df3b27135664b6bcf45d1869",
@@ -3335,7 +3960,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "OMX"
+    "symbol": "OMX",
+    "name": "Omix",
+    "address": "0xb5dbc6d3cf380079df3b27135664b6bcf45d1869"
   },
   {
     "assetData": "0xf47261b00000000000000000000000008727c112c712c4a03371ac87a74dd6ab104af768",
@@ -3345,7 +3972,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "JET"
+    "symbol": "JET",
+    "name": "Jetcoin",
+    "address": "0x8727c112c712c4a03371ac87a74dd6ab104af768"
   },
   {
     "assetData": "0xf47261b00000000000000000000000002ef27bf41236bd859a95209e17a43fbd26851f92",
@@ -3355,7 +3984,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "MORPH"
+    "symbol": "MORPH",
+    "name": "MORPH",
+    "address": "0x2ef27bf41236bd859a95209e17a43fbd26851f92"
   },
   {
     "assetData": "0xf47261b000000000000000000000000023ccc43365d9dd3882eab88f43d515208f832430",
@@ -3365,7 +3996,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "MAS"
+    "symbol": "MAS",
+    "name": "MidasProtocol",
+    "address": "0x23ccc43365d9dd3882eab88f43d515208f832430"
   },
   {
     "assetData": "0xf47261b000000000000000000000000009677d0175dec51e2215426cddd055a71bf4228d",
@@ -3375,7 +4008,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "KCC"
+    "symbol": "KCC",
+    "name": "Kyber Community Coupon @ https://kyber.network/swap",
+    "address": "0x09677d0175dec51e2215426cddd055a71bf4228d"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000ea26c4ac16d4a5a106820bc8aee85fd0b7b2b664",
@@ -3385,7 +4020,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "QKC"
+    "symbol": "QKC",
+    "name": "QuarkChain Token",
+    "address": "0xea26c4ac16d4a5a106820bc8aee85fd0b7b2b664"
   },
   {
     "assetData": "0xf47261b000000000000000000000000081c9151de0c8bafcd325a57e3db5a5df1cebf79c",
@@ -3395,7 +4032,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "DAT"
+    "symbol": "DAT",
+    "name": "Datum Token",
+    "address": "0x81c9151de0c8bafcd325a57e3db5a5df1cebf79c"
   },
   {
     "assetData": "0xf47261b000000000000000000000000032eab29aa859e40365873c8a7562710e2250f640",
@@ -3405,7 +4044,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "XPS"
+    "symbol": "XPS",
+    "name": "Payshares",
+    "address": "0x32eab29aa859e40365873c8a7562710e2250f640"
   },
   {
     "assetData": "0xf47261b00000000000000000000000006b92d76c9d0d40e53019ffa51b6f0c9b6bc657c9",
@@ -3415,7 +4056,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "ETHU"
+    "symbol": "ETHU",
+    "name": "Ethereum Utility",
+    "address": "0x6b92d76c9d0d40e53019ffa51b6f0c9b6bc657c9"
   },
   {
     "assetData": "0xf47261b000000000000000000000000084770928daa1918361c49ec5e619c1b47681dbe8",
@@ -3425,7 +4068,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "MORTY"
+    "symbol": "MORTY",
+    "name": "The One True Morty",
+    "address": "0x84770928daa1918361c49ec5e619c1b47681dbe8"
   },
   {
     "assetData": "0xf47261b00000000000000000000000006e6a00012c2005ca5c75b3ad58baac1a7a8e241f",
@@ -3435,7 +4080,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "MRC"
+    "symbol": "MRC",
+    "name": "Moringa Coin",
+    "address": "0x6e6a00012c2005ca5c75b3ad58baac1a7a8e241f"
   },
   {
     "assetData": "0xf47261b000000000000000000000000049324e152d7e0659a9e9f7959a047d10dbab0c8e",
@@ -3445,7 +4092,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "PT"
+    "symbol": "PT",
+    "name": "Pivot Token",
+    "address": "0x49324e152d7e0659a9e9f7959a047d10dbab0c8e"
   },
   {
     "assetData": "0xf47261b00000000000000000000000003f06b5d78406cd97bdf10f5c420b241d32759c80",
@@ -3455,7 +4104,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "CYFM"
+    "symbol": "CYFM",
+    "name": "CYBERFM",
+    "address": "0x3f06b5d78406cd97bdf10f5c420b241d32759c80"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000e1aee98495365fc179699c1bb3e761fa716bee62",
@@ -3465,7 +4116,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "BZNT"
+    "symbol": "BZNT",
+    "name": "BezantToken",
+    "address": "0xe1aee98495365fc179699c1bb3e761fa716bee62"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000536381a8628dbcc8c70ac9a30a7258442eab4c92",
@@ -3475,7 +4128,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "PAN"
+    "symbol": "PAN",
+    "name": "Pantos Token",
+    "address": "0x536381a8628dbcc8c70ac9a30a7258442eab4c92"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000856912680349a406f72e26aa994100b8ad409f87",
@@ -3485,7 +4140,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "ESC"
+    "symbol": "ESC",
+    "name": "Ether Sport",
+    "address": "0x856912680349a406f72e26aa994100b8ad409f87"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000d4dd63d658f603e9a0aa381e103e05457cd5e609",
@@ -3495,7 +4152,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "DPEP"
+    "symbol": "DPEP",
+    "name": "CryptoPepes DUST",
+    "address": "0xd4dd63d658f603e9a0aa381e103e05457cd5e609"
   },
   {
     "assetData": "0xf47261b000000000000000000000000026add8af3168af432d0826d750d57b603b700d98",
@@ -3505,7 +4164,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "SZON"
+    "symbol": "SZON",
+    "name": "SZONCOIN",
+    "address": "0x26add8af3168af432d0826d750d57b603b700d98"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000f4252f60d8ac40d94238767c6684097de86c5a95",
@@ -3515,7 +4176,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "OVRS"
+    "symbol": "OVRS",
+    "name": "OverShooting Token",
+    "address": "0xf4252f60d8ac40d94238767c6684097de86c5a95"
   },
   {
     "assetData": "0xf47261b00000000000000000000000006ed1c0cc0a0f9e9125441ba8253b3925126b06f1",
@@ -3525,7 +4188,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "MAMA"
+    "symbol": "MAMA",
+    "name": "MAMACoin",
+    "address": "0x6ed1c0cc0a0f9e9125441ba8253b3925126b06f1"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000fb48e0dea837f9438309a7e9f0cfe7ee3353a84e",
@@ -3535,7 +4200,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "AFA"
+    "symbol": "AFA",
+    "name": "Africahead Ipparts",
+    "address": "0xfb48e0dea837f9438309a7e9f0cfe7ee3353a84e"
   },
   {
     "assetData": "0xf47261b00000000000000000000000007a6ca85a3c9b3f8b907cc2991827795178bd80d0",
@@ -3545,7 +4212,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "BDB"
+    "symbol": "BDB",
+    "name": "BitDailyBot",
+    "address": "0x7a6ca85a3c9b3f8b907cc2991827795178bd80d0"
   },
   {
     "assetData": "0xf47261b000000000000000000000000083053843161ef9fe5b44211a56d2adf201bedef9",
@@ -3555,7 +4224,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "JILL"
+    "symbol": "JILL",
+    "name": "JILLION",
+    "address": "0x83053843161ef9fe5b44211a56d2adf201bedef9"
   },
   {
     "assetData": "0xf47261b00000000000000000000000008e870d67f660d95d5be530380d0ec0bd388289e1",
@@ -3565,7 +4236,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "PAX"
+    "symbol": "PAX",
+    "name": "PAX",
+    "address": "0x8e870d67f660d95d5be530380d0ec0bd388289e1"
   },
   {
     "assetData": "0xf47261b00000000000000000000000004d807509aece24c0fa5a102b6a3b059ec6e14392",
@@ -3575,7 +4248,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "ONE"
+    "symbol": "ONE",
+    "name": "Menlo One",
+    "address": "0x4d807509aece24c0fa5a102b6a3b059ec6e14392"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000db25f211ab05b1c97d595516f45794528a807ad8",
@@ -3585,7 +4260,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "EURS"
+    "symbol": "EURS",
+    "name": "STASIS EURS Token",
+    "address": "0xdb25f211ab05b1c97d595516f45794528a807ad8"
   },
   {
     "assetData": "0xf47261b000000000000000000000000058f8c2bf72d993093d2e5aa5a1a04e21a5c946e4",
@@ -3595,7 +4272,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "NLS"
+    "symbol": "NLS",
+    "name": "Neluns",
+    "address": "0x58f8c2bf72d993093d2e5aa5a1a04e21a5c946e4"
   },
   {
     "assetData": "0xf47261b00000000000000000000000003543638ed4a9006e4840b105944271bcea15605d",
@@ -3605,7 +4284,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "UUU"
+    "symbol": "UUU",
+    "name": "UNetworkToken",
+    "address": "0x3543638ed4a9006e4840b105944271bcea15605d"
   },
   {
     "assetData": "0xf47261b000000000000000000000000057ab1e02fee23774580c119740129eac7081e9d3",
@@ -3615,7 +4296,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "sUSD"
+    "symbol": "sUSD",
+    "name": "Synth sUSD",
+    "address": "0x57ab1e02fee23774580c119740129eac7081e9d3"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000e9a9d1101204b51e8620a28e471f44bb8775e50d",
@@ -3625,7 +4308,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "SWAT"
+    "symbol": "SWAT",
+    "name": "SWTCoin",
+    "address": "0xe9a9d1101204b51e8620a28e471f44bb8775e50d"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000ffa93aacf49297d51e211817452839052fdfb961",
@@ -3635,7 +4320,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "DCC"
+    "symbol": "DCC",
+    "name": "Distributed Credit Chain",
+    "address": "0xffa93aacf49297d51e211817452839052fdfb961"
   },
   {
     "assetData": "0xf47261b00000000000000000000000002932746414a6766a2b4a472cb3a2624f5667fd83",
@@ -3645,7 +4332,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "BTRS"
+    "symbol": "BTRS",
+    "name": "BitBall Treasure",
+    "address": "0x2932746414a6766a2b4a472cb3a2624f5667fd83"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000382117315856a533549ea621542ccce13e54ae82",
@@ -3655,7 +4344,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "BTB"
+    "symbol": "BTB",
+    "name": "BitBall",
+    "address": "0x382117315856a533549ea621542ccce13e54ae82"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000687bfc3e73f6af55f0ccca8450114d107e781a0e",
@@ -3665,7 +4356,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "QCH"
+    "symbol": "QCH",
+    "name": "QChi",
+    "address": "0x687bfc3e73f6af55f0ccca8450114d107e781a0e"
   },
   {
     "assetData": "0xf47261b00000000000000000000000003f8828955db539ddd78ecc2a0cecd77d3eb8b033",
@@ -3675,7 +4368,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "AMSC"
+    "symbol": "AMSC",
+    "name": "AmethystCoin",
+    "address": "0x3f8828955db539ddd78ecc2a0cecd77d3eb8b033"
   },
   {
     "assetData": "0xf47261b00000000000000000000000008f0f86a2663860ffe027d0e64d144a5ada63e674",
@@ -3685,7 +4380,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "TBK"
+    "symbol": "TBK",
+    "name": "TobkaCoin",
+    "address": "0x8f0f86a2663860ffe027d0e64d144a5ada63e674"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000b6ed7644c69416d67b522e20bc294a9a9b405b31",
@@ -3695,7 +4392,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "0xBTC"
+    "symbol": "0xBTC",
+    "name": "0xBitcoin Token",
+    "address": "0xb6ed7644c69416d67b522e20bc294a9a9b405b31"
   },
   {
     "assetData": "0xf47261b000000000000000000000000000a34c9aab1277ff5134e65606dd3cf416175c8d",
@@ -3705,7 +4404,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "MILL"
+    "symbol": "MILL",
+    "name": "Millionaire",
+    "address": "0x00a34c9aab1277ff5134e65606dd3cf416175c8d"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000840fe75abfadc0f2d54037829571b2782e919ce4",
@@ -3715,7 +4416,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "WEB"
+    "symbol": "WEB",
+    "name": "Webcoin",
+    "address": "0x840fe75abfadc0f2d54037829571b2782e919ce4"
   },
   {
     "assetData": "0xf47261b00000000000000000000000005d4d57cd06fa7fe99e26fdc481b468f77f05073c",
@@ -3725,7 +4428,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "NTK"
+    "symbol": "NTK",
+    "name": "Netkoin",
+    "address": "0x5d4d57cd06fa7fe99e26fdc481b468f77f05073c"
   },
   {
     "assetData": "0xf47261b00000000000000000000000007a5522fb18a7953aab4358495e6df804eca63678",
@@ -3735,7 +4440,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "DCA"
+    "symbol": "DCA",
+    "name": "DecentralizedCurrencyAssets",
+    "address": "0x7a5522fb18a7953aab4358495e6df804eca63678"
   },
   {
     "assetData": "0xf47261b00000000000000000000000001c74cff0376fb4031cd7492cd6db2d66c3f2c6b9",
@@ -3745,7 +4452,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "BZRX"
+    "symbol": "BZRX",
+    "name": "bZx Protocol Token",
+    "address": "0x1c74cff0376fb4031cd7492cd6db2d66c3f2c6b9"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000624d520bab2e4ad83935fa503fb130614374e850",
@@ -3755,7 +4464,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "SSP"
+    "symbol": "SSP",
+    "name": "smartshare token",
+    "address": "0x624d520bab2e4ad83935fa503fb130614374e850"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000226bb599a12c826476e3a771454697ea52e9e220",
@@ -3765,7 +4476,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "PRO"
+    "symbol": "PRO",
+    "name": "Propy",
+    "address": "0x226bb599a12c826476e3a771454697ea52e9e220"
   },
   {
     "assetData": "0xf47261b00000000000000000000000004092678e4e78230f46a1534c0fbc8fa39780892b",
@@ -3775,7 +4488,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "OCN"
+    "symbol": "OCN",
+    "name": "OCoin",
+    "address": "0x4092678e4e78230f46a1534c0fbc8fa39780892b"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000a6a840e50bcaa50da017b91a0d86b8b2d41156ee",
@@ -3785,7 +4500,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "EKO"
+    "symbol": "EKO",
+    "name": "EchoLink",
+    "address": "0xa6a840e50bcaa50da017b91a0d86b8b2d41156ee"
   },
   {
     "assetData": "0xf47261b00000000000000000000000002c4e8f2d746113d0696ce89b35f0d8bf88e0aeca",
@@ -3795,7 +4512,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "ST"
+    "symbol": "ST",
+    "name": "Simple Token",
+    "address": "0x2c4e8f2d746113d0696ce89b35f0d8bf88e0aeca"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000e9c2851dadbb1bb34bceb54473a0e428a50d8845",
@@ -3805,16 +4524,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "ABR"
-  },
-  {
-    "assetData": "0xf47261b0000000000000000000000000be9dcc06df553604aa316889d616ecc80dc0b58f",
-    "minAmount": "1",
-    "maxAmount": "999999999999999999999",
-    "precision": 8,
-    "relayers": [
-      "https://sra.bamboorelay.com/0x/v2/"
-    ]
+    "symbol": "ABR",
+    "name": "Abri",
+    "address": "0xe9c2851dadbb1bb34bceb54473a0e428a50d8845"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000afe8ba38ec668db1d30c805c40983839bf8b4278",
@@ -3824,7 +4536,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "WCN"
+    "symbol": "WCN",
+    "name": "Wechain Network",
+    "address": "0xafe8ba38ec668db1d30c805c40983839bf8b4278"
   },
   {
     "assetData": "0xf47261b00000000000000000000000003af657e839fdef98287bdac35faea332c0a4debb",
@@ -3834,7 +4548,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "BDS coin"
+    "symbol": "BDS coin",
+    "name": "Vietnam Real Estate Crypto",
+    "address": "0x3af657e839fdef98287bdac35faea332c0a4debb"
   },
   {
     "assetData": "0xf47261b00000000000000000000000004a220e6096b25eadb88358cb44068a3248254675",
@@ -3844,7 +4560,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "QNT"
+    "symbol": "QNT",
+    "name": "Quant",
+    "address": "0x4a220e6096b25eadb88358cb44068a3248254675"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000d9bae39c725a1864b1133ad0ef1640d02f79b78c",
@@ -3854,7 +4572,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "TST"
+    "symbol": "TST",
+    "name": "Touch Smart Token",
+    "address": "0xd9bae39c725a1864b1133ad0ef1640d02f79b78c"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000d407f9d1a1adaeb738bf0674018a44cb54c40bac",
@@ -3864,7 +4584,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "GFT"
+    "symbol": "GFT",
+    "name": "GlobFone Telecom",
+    "address": "0xd407f9d1a1adaeb738bf0674018a44cb54c40bac"
   },
   {
     "assetData": "0xf47261b000000000000000000000000096c645d3d3706f793ef52c19bbace441900ed47d",
@@ -3874,7 +4596,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "MPS"
+    "symbol": "MPS",
+    "name": "MtPelerin Shares",
+    "address": "0x96c645d3d3706f793ef52c19bbace441900ed47d"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000469202bb405f940cd908ddbc28155a70703a4840",
@@ -3884,7 +4608,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "BDSVN"
+    "symbol": "BDSVN",
+    "name": "Vietnam Real Estate Crypto",
+    "address": "0x469202bb405f940cd908ddbc28155a70703a4840"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000af72cc16f1735d7134b29c7d56e8092e2dfea54e",
@@ -3894,7 +4620,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "MCC"
+    "symbol": "MCC",
+    "name": "Music Copyright Crypto",
+    "address": "0xaf72cc16f1735d7134b29c7d56e8092e2dfea54e"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000c1db8a5d03f1e541a31a9c5e5f5a1cf5a16580bd",
@@ -3904,7 +4632,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "ETHT"
+    "symbol": "ETHT",
+    "name": "Ethereum Titan",
+    "address": "0xc1db8a5d03f1e541a31a9c5e5f5a1cf5a16580bd"
   },
   {
     "assetData": "0xf47261b00000000000000000000000005adc961d6ac3f7062d2ea45fefb8d8167d44b190",
@@ -3914,7 +4644,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "DTH"
+    "symbol": "DTH",
+    "name": "Dether",
+    "address": "0x5adc961d6ac3f7062d2ea45fefb8d8167d44b190"
   },
   {
     "assetData": "0xf47261b00000000000000000000000009389434852b94bbad4c8afed5b7bdbc5ff0c2275",
@@ -3924,7 +4656,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "TTC"
+    "symbol": "TTC",
+    "name": "TTC",
+    "address": "0x9389434852b94bbad4c8afed5b7bdbc5ff0c2275"
   },
   {
     "assetData": "0xf47261b000000000000000000000000000e150d741eda1d49d341189cae4c08a73a49c95",
@@ -3934,7 +4668,9 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "INF"
+    "symbol": "INF",
+    "name": "InfinitusTokens",
+    "address": "0x00e150d741eda1d49d341189cae4c08a73a49c95"
   },
   {
     "assetData": "0xf47261b0000000000000000000000000094c875704c14783049ddf8136e298b3a099c446",
@@ -3944,6 +4680,8 @@
     "relayers": [
       "https://sra.bamboorelay.com/0x/v2/"
     ],
-    "symbol": "PT"
+    "symbol": "PT",
+    "name": "Promotion Token @ https://kyber.network/swap",
+    "address": "0x094c875704c14783049ddf8136e298b3a099c446"
   }
 ]

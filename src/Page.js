@@ -1,28 +1,38 @@
-import React, { Component } from 'react'
-import {connect} from 'react-redux'
-import './Page.css'
-import { getRelayers } from './action'
+import React from 'react'
+import {withStyles} from '@material-ui/core/styles';
+import GridList from '@material-ui/core/GridList';
+import GridListTile from '@material-ui/core/GridListTile';
+import AssetCard from './components/Asset'
+import assets from './assets'
 
-const mapStateToProps = state => ({
-  loading: state.loading,
-  relayers: state.relayers
-})
-
-class Page extends Component {
-  componentDidMount() {
-    this.props.dispatch(getRelayers())
+const styles = theme => ({
+  root: {
+    display: 'flex',
+    flexWrap: 'wrap',
+    justifyContent: 'space-around',
+    overflow: 'hidden',
+    backgroundColor: theme.palette.background.paper,
+    marginLeft: 'auto',
+    marginRight: 'auto',
+  },
+  tile: {
+    minWidth: 200
   }
+});
 
-  render() {
-    console.log('props', this.props)
-    const {loading} = this.props
-    console.log('loading', loading)
-    return (
-      <div className="App">
-        Loading: {loading ? 'yes' : 'no'}
-      </div>
-    )
-  }
+const Page = (props) => {
+  const {classes} = props;
+  return (
+    <div className={classes.root}>
+      <GridList cellHeight={160} cols={8}>
+        {assets.map((asset, index) => (
+          <GridListTile key={index} cols={1} className={classes.tile}>
+            <AssetCard asset={asset}/>
+          </GridListTile>
+        ))}
+      </GridList>
+    </div>
+  )
 }
 
-export default connect(mapStateToProps)(Page);
+export default withStyles(styles)(Page)

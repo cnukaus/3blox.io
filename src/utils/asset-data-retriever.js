@@ -58,6 +58,9 @@ function getAssets(relayers) {
             if (response.data.name) {
               assets[key].name = response.data.name
             }
+            if (response.data.address) {
+              assets[key].address = response.data.address
+            }
             setTimeout(next, 2000)
           })
         } else {
@@ -66,7 +69,7 @@ function getAssets(relayers) {
       }, function () {
         const a = []
         for (let key in assets) {
-          a.push(assets[key])
+          if(assets[key].symbol) a.push(assets[key])
         }
         a.sort(function(assetA, assetB) { return assetA.symbol - assetB.symbol})
         fs.writeFile('src/assets.json', JSON.stringify(a), function(err) {
