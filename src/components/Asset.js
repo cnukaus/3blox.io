@@ -14,7 +14,7 @@ const styles = theme => ({
   card: {
     minWidth: 150,
     textAlign: 'center',
-    backgroundColor: '#ffecb3',
+    backgroundColor: 'lightYellow',
     height: '100%',
     display: 'flex',
     justifyContent: 'space-around',

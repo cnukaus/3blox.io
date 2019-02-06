@@ -12,7 +12,6 @@ const styles = theme => ({
     flexWrap: 'wrap',
     justifyContent: 'space-around',
     overflow: 'hidden',
-    backgroundColor: theme.palette.background.paper,
     marginLeft: 3,
     marginRight: 3,
   },

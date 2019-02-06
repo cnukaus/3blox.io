@@ -1,12 +1,12 @@
 import React from 'react';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
-import IconButton from '@material-ui/core/IconButton';
 import InputBase from '@material-ui/core/InputBase';
 import { fade } from '@material-ui/core/styles/colorManipulator';
 import { withStyles } from '@material-ui/core/styles';
-import MenuIcon from '@material-ui/icons/Menu';
 import SearchIcon from '@material-ui/icons/Search';
+import SvgIcon from '@material-ui/core/SvgIcon';
+import logo from './3box.io.min.svg'
 
 const styles = theme => ({
   root: {
@@ -65,8 +65,9 @@ function Header(props) {
   const { classes } = props;
   return (
     <div className={classes.root}>
-      <AppBar position="fixed" color='secondary' className={classes.bar}>
+      <AppBar position="fixed" className={classes.bar}>
         <Toolbar>
+          <img src={logo} height={50}/>
           <div className={classes.grow} />
           <div className={classes.search}>
             <div className={classes.searchIcon}>
