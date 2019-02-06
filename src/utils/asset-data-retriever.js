@@ -43,14 +43,15 @@ function getAssets(relayers) {
     },
     function () {
       async.eachOfSeries(assets, function (value, key, next) {
-        let tokenAddress
+        let decodedAssetData
         if (key.startsWith(AssetProxyId.ERC20)) {
-          tokenAddress = assetDataUtils.decodeERC20AssetData(key).tokenAddress
+          decodedAssetData = assetDataUtils.decodeERC20AssetData(key)
         } else if (key.startsWith(AssetProxyId.ERC721)) {
-          tokenAddress = assetDataUtils.decodeERC721AssetData(key).tokenAddress
+          decodedAssetData = assetDataUtils.decodeERC721AssetData(key)
         }
-        if (tokenAddress) {
-          axios.get(`http://api.ethplorer.io/getTokenInfo/${tokenAddress}?apiKey=freekey`).then((response) => {
+        if (decodedAssetData && decodedAssetData.tokenAddress) {
+          assets[key].assetProxyId = decodedAssetData.assetProxyId
+          axios.get(`http://api.ethplorer.io/getTokenInfo/${decodedAssetData.tokenAddress}?apiKey=freekey`).then((response) => {
             console.log(response.data)
             if (response.data.symbol) {
               assets[key].symbol = response.data.symbol
@@ -60,6 +61,9 @@ function getAssets(relayers) {
             }
             if (response.data.address) {
               assets[key].address = response.data.address
+            }
+            if (response.data.decimals) {
+              assets[key].decimals = Number(response.data.decimals)
             }
             setTimeout(next, 2000)
           })
@@ -71,8 +75,8 @@ function getAssets(relayers) {
         for (let key in assets) {
           if(assets[key].symbol) a.push(assets[key])
         }
-        a.sort(function(assetA, assetB) { return assetA.symbol - assetB.symbol})
-        fs.writeFile('src/assets.json', JSON.stringify(a), function(err) {
+        a.sort(function(assetA, assetB) { return assetA.symbol.localeCompare(assetB.symbol)})
+        fs.writeFile('src/assets.json', JSON.stringify(a, null, 2), function(err) {
           if (err) console.log(err)
           else console.log('Done!')
         })
