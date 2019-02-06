@@ -12,8 +12,8 @@ const styles = theme => ({
     flexWrap: 'wrap',
     justifyContent: 'space-around',
     overflow: 'hidden',
-    marginLeft: 3,
-    marginRight: 3,
+    marginLeft: 5,
+    marginRight: 5,
   },
   grid: {
     paddingTop: 72
@@ -28,7 +28,7 @@ const Page = (props) => {
   return (
     <div className={classes.root}>
       <Header/>
-      <GridList cellHeight={190} cols={8} className={classes.grid} id='grid'>
+      <GridList cellHeight={190} cols={6} className={classes.grid} id='grid'>
         {assets.map((asset, index) => (
           <GridListTile key={index} cols={1} className={classes.tile}>
             <AssetCard asset={asset}/>

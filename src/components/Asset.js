@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {Component} from 'react'
 import Card from '@material-ui/core/Card'
 import CardActions from '@material-ui/core/CardActions'
 import CardContent from '@material-ui/core/CardContent'
@@ -38,9 +38,14 @@ const styles = theme => ({
   }
 });
 
-const AssetCard = (props) => {
-  const { classes, asset } = props
-  const instantBuy = () => {
+class AssetCard extends Component {
+  constructor(props) {
+    super(props);
+    this.instantBuy = this.instantBuy.bind(this);
+    this.state={certificatePrice: 8.26};
+  }
+  instantBuy() {
+    const {asset} = this.props
     const assetDataMap = {}
     assetDataMap[asset.assetData] = {}
     assetDataMap[asset.assetData].assetProxyId = asset.assetProxyId
@@ -58,29 +63,32 @@ const AssetCard = (props) => {
       },
     }, 'body')
   }
-  return <Card className={classes.card}>
-    <CardContent className={classes.cardContent}>
-      <Typography variant="h5" component="h2">
-        {asset.symbol}
-      </Typography>
-      <Tooltip title='Token Contract on Etherscan'>
-        <a href={'https://etherscan.io/token/' + asset.address} target='_blank' rel="noopener noreferrer">
-          <LinkIcon/>
-        </a>
-      </Tooltip>
-      <Typography className={classes.pos} color="textSecondary" component="p">
-        {asset.name}
-      </Typography>
-    </CardContent>
-    <CardActions className={classes.cardActions}>
-      <Fab className={classes.button} onClick={instantBuy} color="primary"
-           variant="extended"
-           size="small">
-        <AttachMoneyIcon/>
-        Buy
-      </Fab>
-    </CardActions>
-  </Card>
+  render() {
+    const {classes, asset} = this.props
+    return <Card className={classes.card}>
+      <CardContent className={classes.cardContent}>
+        <Typography variant="h5" component="h2">
+          {asset.symbol}
+        </Typography>
+        <Tooltip title='View Token on Etherscan'>
+          <a href={'https://etherscan.io/token/' + asset.address} target='_blank' rel="noopener noreferrer">
+            <LinkIcon/>
+          </a>
+        </Tooltip>
+        <Typography className={classes.pos} color="textSecondary" component="p">
+          {asset.name}
+        </Typography>
+      </CardContent>
+      <CardActions className={classes.cardActions}>
+        <Fab className={classes.button} onClick={this.instantBuy} color="primary"
+             variant="extended"
+             size="small">
+          <AttachMoneyIcon/>
+          Buy
+        </Fab>
+      </CardActions>
+    </Card>
+  }
 }
 
 export default withStyles(styles)(AssetCard);
