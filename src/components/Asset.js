@@ -2,12 +2,15 @@ import React from 'react'
 import Card from '@material-ui/core/Card'
 import CardActions from '@material-ui/core/CardActions'
 import CardContent from '@material-ui/core/CardContent'
-import Button from '@material-ui/core/Button'
+import Fab from '@material-ui/core/Fab';
+import AttachMoneyIcon from '@material-ui/icons/AttachMoney'
 import Typography from '@material-ui/core/Typography'
 import { withStyles } from '@material-ui/core/styles'
 import LinkIcon from '@material-ui/icons/Link'
+import Tooltip from '@material-ui/core/Tooltip';
 
 const styles = theme => ({
+
   card: {
     minWidth: 150,
     textAlign: 'center',
@@ -60,15 +63,22 @@ const AssetCard = (props) => {
       <Typography variant="h5" component="h2">
         {asset.symbol}
       </Typography>
-      <a href={'https://etherscan.io/token/' + asset.address} target='_blank' rel="noopener noreferrer" title="Token Contract">
-        <LinkIcon/>
-      </a>
+      <Tooltip title='Token Contract on Etherscan'>
+        <a href={'https://etherscan.io/token/' + asset.address} target='_blank' rel="noopener noreferrer">
+          <LinkIcon/>
+        </a>
+      </Tooltip>
       <Typography className={classes.pos} color="textSecondary" component="p">
         {asset.name}
       </Typography>
     </CardContent>
     <CardActions className={classes.cardActions}>
-      <Button className={classes.button} variant="outlined" color="primary" onClick={hello}>Buy</Button>
+      <Fab className={classes.button} onClick={hello} color="primary"
+           variant="extended"
+           size="small">
+        <AttachMoneyIcon/>
+        Buy
+      </Fab>
     </CardActions>
   </Card>
 }

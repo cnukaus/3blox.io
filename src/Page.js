@@ -12,11 +12,11 @@ const styles = theme => ({
     justifyContent: 'space-around',
     overflow: 'hidden',
     backgroundColor: theme.palette.background.paper,
-    marginLeft: 'auto',
-    marginRight: 'auto',
+    marginLeft: 3,
+    marginRight: 3,
   },
   tile: {
-    minWidth: 150
+    minWidth: 150,
   }
 });
 
