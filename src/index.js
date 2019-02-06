@@ -10,7 +10,7 @@ import store from './store'
 const theme = createMuiTheme({
   palette: {
     primary: {
-      50: '#f5f5f5',
+      50: '#e0e0e0',
       100: '#bdbdbd',
       200: '#757575',
       300: '#616161',

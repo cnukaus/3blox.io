@@ -5,7 +5,7 @@ import InputBase from '@material-ui/core/InputBase';
 import { fade } from '@material-ui/core/styles/colorManipulator';
 import { withStyles } from '@material-ui/core/styles';
 import SearchIcon from '@material-ui/icons/Search';
-import SvgIcon from '@material-ui/core/SvgIcon';
+import Typography from '@material-ui/core/Typography';
 import logo from './3box.io.min.svg'
 
 const styles = theme => ({
@@ -15,8 +15,12 @@ const styles = theme => ({
   bar: {
     zIndex: 99
   },
+  logo: {
+    width: 210
+  },
   grow: {
     flexGrow: 1,
+    textAlign: 'center'
   },
   search: {
     position: 'relative',
@@ -67,8 +71,14 @@ function Header(props) {
     <div className={classes.root}>
       <AppBar position="fixed" className={classes.bar}>
         <Toolbar>
-          <img src={logo} height={50}/>
-          <div className={classes.grow} />
+          <div className={classes.logo}>
+            <img src={logo} height={50}/>
+          </div>
+          <div className={classes.grow}>
+            <Typography variant="h6" color="inherit">
+              Buy tokens at best price through all 0x relayers
+            </Typography>
+          </div>
           <div className={classes.search}>
             <div className={classes.searchIcon}>
               <SearchIcon />
