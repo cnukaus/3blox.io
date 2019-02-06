@@ -5,12 +5,17 @@ import Page from './Page'
 import * as serviceWorker from './serviceWorker'
 import { Provider as StoreProvider } from 'react-redux'
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles'
-import blue from '@material-ui/core/colors/blue'
+import green from '@material-ui/core/colors/brown'
+import amber from '@material-ui/core/colors/amber'
 import store from './store'
 
 const theme = createMuiTheme({
   palette: {
-    primary: blue,
+    primary: green,
+    secondary: amber
+  },
+  typography: {
+    useNextVariants: true,
   },
 })
 

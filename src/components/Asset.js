@@ -14,7 +14,7 @@ const styles = theme => ({
   card: {
     minWidth: 150,
     textAlign: 'center',
-    backgroundColor: 'wheat',
+    backgroundColor: '#ffecb3',
     height: '100%',
     display: 'flex',
     justifyContent: 'space-around',
@@ -40,7 +40,7 @@ const styles = theme => ({
 
 const AssetCard = (props) => {
   const { classes, asset } = props
-  const hello = () => {
+  const instantBuy = () => {
     const assetDataMap = {}
     assetDataMap[asset.assetData] = {}
     assetDataMap[asset.assetData].assetProxyId = asset.assetProxyId
@@ -73,7 +73,7 @@ const AssetCard = (props) => {
       </Typography>
     </CardContent>
     <CardActions className={classes.cardActions}>
-      <Fab className={classes.button} onClick={hello} color="primary"
+      <Fab className={classes.button} onClick={instantBuy} color="primary"
            variant="extended"
            size="small">
         <AttachMoneyIcon/>
