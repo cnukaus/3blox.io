@@ -16,7 +16,7 @@ const styles = theme => ({
     marginRight: 'auto',
   },
   tile: {
-    minWidth: 200
+    minWidth: 150
   }
 });
 
@@ -24,7 +24,7 @@ const Page = (props) => {
   const {classes} = props;
   return (
     <div className={classes.root}>
-      <GridList cellHeight={160} cols={8}>
+      <GridList cellHeight={190} cols={8}>
         {assets.map((asset, index) => (
           <GridListTile key={index} cols={1} className={classes.tile}>
             <AssetCard asset={asset}/>
