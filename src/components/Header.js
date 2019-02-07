@@ -8,7 +8,7 @@ import {withStyles} from '@material-ui/core/styles';
 import SearchIcon from '@material-ui/icons/Search';
 import Typography from '@material-ui/core/Typography';
 import logo from './3box.io.min.svg'
-import {search} from '../action'
+import {search} from '../redux/action'
 
 const styles = theme => ({
   root: {

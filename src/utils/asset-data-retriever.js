@@ -3,9 +3,9 @@ const axios = require('axios')
 const fs = require('fs');
 const assetDataUtils = require('@0x/order-utils').assetDataUtils
 const AssetProxyId = require('@0x/types').AssetProxyId
-const relayers = require('../relayers.json')
+const relayers = require('../data/relayers.json')
 
-const WETH_ADDRESS_SUFFIX = '2aaa39b223fe8d0a0e5c4f27ead9083c756cc2'
+export const WETH = '0xf47261b0000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2'
 
 function requestAssetPairs(endPoint) {
   return axios.get(endPoint + (endPoint.endsWith('/') ? '' : '/') + 'asset_pairs?page=1&perPage=1000')
@@ -19,7 +19,7 @@ function getAssets(relayers) {
         if (response.data && response.data.records) {
           console.log(relayer.sra_http_endpoint)
           response.data.records.forEach((record) => {
-            if (record.assetDataA.assetData.toLowerCase().endsWith(WETH_ADDRESS_SUFFIX)) {
+            if (record.assetDataA.assetData.toLowerCase() === WETH) {
               if (!assets[record.assetDataB.assetData]) {
                 assets[record.assetDataB.assetData] = record.assetDataB
               }
@@ -27,7 +27,7 @@ function getAssets(relayers) {
                 assets[record.assetDataB.assetData].relayers = []
               }
               assets[record.assetDataB.assetData].relayers.push(relayer.sra_http_endpoint)
-            } else if (record.assetDataB.assetData.toLowerCase().endsWith(WETH_ADDRESS_SUFFIX)) {
+            } else if (record.assetDataA.assetData.toLowerCase() === WETH) {
               if (!assets[record.assetDataA.assetData]) {
                 assets[record.assetDataA.assetData] = record.assetDataA
               }

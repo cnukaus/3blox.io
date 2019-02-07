@@ -3,8 +3,8 @@ import { connect } from 'react-redux';
 import {withStyles} from '@material-ui/core/styles';
 import GridList from '@material-ui/core/GridList';
 import GridListTile from '@material-ui/core/GridListTile';
-import Header from './components/Header'
-import AssetCard from './components/Asset'
+import Header from '../components/Header'
+import AssetCard from '../components/Asset'
 
 const styles = () => ({
   root: {

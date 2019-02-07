@@ -1,11 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
-import Page from './Page'
+import Page from './containers/Page'
 import * as serviceWorker from './serviceWorker'
 import { Provider as StoreProvider } from 'react-redux'
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles'
-import store from './store'
+import store from './redux/store'
 
 const theme = createMuiTheme({
   palette: {
