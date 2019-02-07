@@ -9,8 +9,7 @@ import { withStyles } from '@material-ui/core/styles'
 import LinkIcon from '@material-ui/icons/Link'
 import Tooltip from '@material-ui/core/Tooltip';
 
-const styles = theme => ({
-
+const styles = () => ({
   card: {
     minWidth: 150,
     textAlign: 'center',
@@ -42,7 +41,6 @@ class AssetCard extends Component {
   constructor(props) {
     super(props);
     this.instantBuy = this.instantBuy.bind(this);
-    this.state={certificatePrice: 8.26};
   }
   instantBuy() {
     const {asset} = this.props

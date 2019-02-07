@@ -1,16 +1,13 @@
-import { SEARCH, GET_RELAYERS, RELAYERS_RECEIVED } from "./action";
+import { SEARCH } from "./action";
+import assets from './assets'
 
 export default function(state, action) {
   switch (action.type) {
     case SEARCH:
-      return {amount: state.amount + action.amount}
-    case GET_RELAYERS:
-      console.log('get relayers')
-      return {loading: true}
-    case RELAYERS_RECEIVED:
-      console.log('relayers received')
-      return {loading: false, relayers: action.relayers}
+      const searchTerm = action.searchTerm.toLowerCase()
+      return {assets: assets.filter(
+        asset => asset.symbol.toLowerCase().startsWith(searchTerm) || asset.name.toLowerCase().includes(searchTerm))}
     default:
-      return {}
+      return {assets: assets}
   }
 }

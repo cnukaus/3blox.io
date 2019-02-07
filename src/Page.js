@@ -1,12 +1,12 @@
 import React from 'react'
+import { connect } from 'react-redux';
 import {withStyles} from '@material-ui/core/styles';
 import GridList from '@material-ui/core/GridList';
 import GridListTile from '@material-ui/core/GridListTile';
 import Header from './components/Header'
 import AssetCard from './components/Asset'
-import assets from './assets'
 
-const styles = theme => ({
+const styles = () => ({
   root: {
     display: 'flex',
     flexWrap: 'wrap',
@@ -23,8 +23,12 @@ const styles = theme => ({
   }
 });
 
+const mapStateToProps = state=>({
+  assets: state.assets
+});
+
 const Page = (props) => {
-  const {classes} = props;
+  const {classes, assets} = props;
   return (
     <div className={classes.root}>
       <Header/>
@@ -39,4 +43,4 @@ const Page = (props) => {
   )
 }
 
-export default withStyles(styles)(Page)
+export default withStyles(styles)(connect(mapStateToProps)(Page))

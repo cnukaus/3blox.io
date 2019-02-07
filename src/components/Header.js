@@ -1,12 +1,14 @@
 import React from 'react';
+import { connect } from 'react-redux';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import InputBase from '@material-ui/core/InputBase';
-import { fade } from '@material-ui/core/styles/colorManipulator';
-import { withStyles } from '@material-ui/core/styles';
+import {fade} from '@material-ui/core/styles/colorManipulator';
+import {withStyles} from '@material-ui/core/styles';
 import SearchIcon from '@material-ui/icons/Search';
 import Typography from '@material-ui/core/Typography';
 import logo from './3box.io.min.svg'
+import {search} from '../action'
 
 const styles = theme => ({
   root: {
@@ -65,36 +67,50 @@ const styles = theme => ({
   },
 });
 
-function Header(props) {
-  const { classes } = props;
-  return (
-    <div className={classes.root}>
-      <AppBar position="fixed" className={classes.bar}>
-        <Toolbar>
-          <div className={classes.logo}>
-            <img src={logo} height={50}/>
-          </div>
-          <div className={classes.grow}>
-            <Typography variant="h6" color="inherit">
-              Buy tokens at best price through all 0x relayers
-            </Typography>
-          </div>
-          <div className={classes.search}>
-            <div className={classes.searchIcon}>
-              <SearchIcon />
+class Header extends React.Component {
+
+  constructor(props) {
+    super(props);
+    this.search = this.search.bind(this);
+    console.log(this.props)
+  }
+
+  search(event) {
+    this.props.dispatch(search(event.target.value))
+  }
+
+  render() {
+    const {classes} = this.props;
+    return (
+      <div className={classes.root}>
+        <AppBar position="fixed" className={classes.bar}>
+          <Toolbar>
+            <div className={classes.logo}>
+              <img src={logo} height={50} alt='Logo'/>
             </div>
-            <InputBase
-              placeholder="Search…"
-              classes={{
-                root: classes.inputRoot,
-                input: classes.inputInput,
-              }}
-            />
-          </div>
-        </Toolbar>
-      </AppBar>
-    </div>
-  );
+            <div className={classes.grow}>
+              <Typography variant="h6" color="inherit">
+                Buy tokens at best price through all 0x relayers
+              </Typography>
+            </div>
+            <div className={classes.search}>
+              <div className={classes.searchIcon}>
+                <SearchIcon/>
+              </div>
+              <InputBase
+                placeholder="Search…"
+                classes={{
+                  root: classes.inputRoot,
+                  input: classes.inputInput,
+                }}
+                onKeyUp={this.search}
+              />
+            </div>
+          </Toolbar>
+        </AppBar>
+      </div>
+    )
+  }
 }
 
-export default withStyles(styles)(Header);
+export default withStyles(styles)(connect()(Header));
