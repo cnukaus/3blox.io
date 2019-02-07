@@ -5,8 +5,7 @@ export default function(state, action) {
   switch (action.type) {
     case SEARCH:
       const searchTerm = action.searchTerm.toLowerCase()
-      return {assets: assets.filter(
-        asset => asset.symbol.toLowerCase().startsWith(searchTerm) || asset.name.toLowerCase().includes(searchTerm))}
+      return {assets: assets.filter(asset => asset.symbol.toLowerCase().startsWith(searchTerm))}
     default:
       return {assets: assets}
   }
