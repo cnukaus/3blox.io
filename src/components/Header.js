@@ -24,6 +24,12 @@ const styles = theme => ({
     flexGrow: 1,
     textAlign: 'center'
   },
+  slogan: {
+    fontSize: '1.2rem',
+    [theme.breakpoints.down('sm')]: {
+      display: 'none'
+    },
+  },
   search: {
     position: 'relative',
     borderRadius: theme.shape.borderRadius,
@@ -88,7 +94,7 @@ class Header extends React.Component {
               <img src={logo} height={50} alt='Logo'/>
             </div>
             <div className={classes.grow}>
-              <Typography variant="h6" color="inherit">
+              <Typography color="inherit" className={classes.slogan}>
                 Buy tokens at best price through all 0x relayers
               </Typography>
             </div>
