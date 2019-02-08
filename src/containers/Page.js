@@ -31,7 +31,8 @@ const styles = (theme) => ({
     alignItems: 'center',
     justifyContent: 'center',
     marginLeft: 30,
-    marginRight: 30
+    marginRight: 30,
+    overflow: 'hidden'
   },
   circle: {
     margin: theme.spacing.unit * 2
