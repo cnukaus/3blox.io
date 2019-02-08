@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import { connect } from 'react-redux';
 import Card from '@material-ui/core/Card'
 import CardActions from '@material-ui/core/CardActions'
 import CardContent from '@material-ui/core/CardContent'
@@ -8,6 +9,7 @@ import Typography from '@material-ui/core/Typography'
 import { withStyles } from '@material-ui/core/styles'
 import LinkIcon from '@material-ui/icons/Link'
 import Tooltip from '@material-ui/core/Tooltip';
+import { findRelayer } from '../redux/actions'
 
 const styles = () => ({
   card: {
@@ -40,8 +42,15 @@ const styles = () => ({
 class AssetCard extends Component {
   constructor(props) {
     super(props);
+    this.dispatchFindRelayer = this.dispatchFindRelayer.bind(this)
     this.instantBuy = this.instantBuy.bind(this);
   }
+
+  dispatchFindRelayer() {
+    const {asset} = this.props
+    this.props.dispatch(findRelayer(asset))
+  }
+
   instantBuy() {
     const {asset} = this.props
     const assetDataMap = {}
@@ -78,7 +87,7 @@ class AssetCard extends Component {
         </Typography>
       </CardContent>
       <CardActions className={classes.cardActions}>
-        <Fab className={classes.button} onClick={this.instantBuy} color="primary"
+        <Fab className={classes.button} onClick={this.dispatchFindRelayer} color="primary"
              variant="extended"
              size="small">
           <AttachMoneyIcon/>
@@ -89,4 +98,4 @@ class AssetCard extends Component {
   }
 }
 
-export default withStyles(styles)(AssetCard);
+export default withStyles(styles)(connect()(AssetCard));

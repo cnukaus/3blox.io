@@ -72,7 +72,6 @@ class Header extends React.Component {
   constructor(props) {
     super(props);
     this.search = this.search.bind(this);
-    console.log(this.props)
   }
 
   search(event) {

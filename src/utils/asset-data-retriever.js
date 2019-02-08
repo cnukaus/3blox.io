@@ -5,7 +5,7 @@ const assetDataUtils = require('@0x/order-utils').assetDataUtils
 const AssetProxyId = require('@0x/types').AssetProxyId
 const relayers = require('../data/relayers.json')
 
-export const WETH = '0xf47261b0000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2'
+const WETH = '0xf47261b0000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2'
 
 function requestAssetPairs(endPoint) {
   return axios.get(endPoint + (endPoint.endsWith('/') ? '' : '/') + 'asset_pairs?page=1&perPage=1000')
