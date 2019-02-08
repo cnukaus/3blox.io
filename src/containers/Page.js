@@ -1,8 +1,7 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import {withStyles} from '@material-ui/core/styles'
-import GridList from '@material-ui/core/GridList'
-import GridListTile from '@material-ui/core/GridListTile'
+import Grid from '@material-ui/core/Grid'
 import Dialog from '@material-ui/core/Dialog'
 import CircularProgress from '@material-ui/core/CircularProgress'
 import Button from '@material-ui/core/Button'
@@ -82,13 +81,13 @@ const Page = (props) => {
   return (
     <div className={classes.root}>
       <Header/>
-      <GridList cellHeight={190} cols={6} className={classes.grid} id='grid'>
+      <Grid container  className={classes.grid} spacing={8} justify='center'>
         {assets.map((asset, index) => (
-          <GridListTile key={index} cols={1} className={classes.tile}>
+          <Grid item key={index} className={classes.tile} xl={2} lg={2} md={3} sm={4} xs={6}>
             <AssetCard asset={asset}/>
-          </GridListTile>
+          </Grid>
         ))}
-      </GridList>
+      </Grid>
       <Dialog open={!!loading || loading === false && !relayer} className={classes.dialog}>
         {!!loading && <div className={classes.progress}>
           Searching best price
