@@ -1,15 +1,18 @@
-import { SEARCH, FIND_RELAYER } from "./action";
+import { SEARCH_ASSET, SEARCH_RELAYER, RELAYER_FOUND, RELAYER_NOT_FOUND } from "./actions";
 import assets from '../data/assets'
 
 export default function(state, action) {
   switch (action.type) {
-    case SEARCH:
+    case SEARCH_ASSET:
       const searchTerm = action.searchTerm.toLowerCase()
       return {...state, assets: assets.filter(asset => asset.symbol.toLowerCase().startsWith(searchTerm))}
-    case FIND_RELAYER:
-      const assetToBuy = action.assetToBuy
-
+    case SEARCH_RELAYER:
+      return {assets: state.assets, loading: true}
+    case RELAYER_FOUND:
+      return {assets: state.assets, loading: false, relayer: action.relayer, assetToBuy: action.asset}
+    case RELAYER_NOT_FOUND:
+      return {assets: state.assets, loading: false}
     default:
-      return {...state, assets: assets}
+      return {assets: assets}
   }
 }

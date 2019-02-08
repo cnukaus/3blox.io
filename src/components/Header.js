@@ -8,7 +8,7 @@ import {withStyles} from '@material-ui/core/styles';
 import SearchIcon from '@material-ui/icons/Search';
 import Typography from '@material-ui/core/Typography';
 import logo from './3box.io.min.svg'
-import {search} from '../redux/action'
+import {searchAsset} from '../redux/actions'
 
 const styles = theme => ({
   root: {
@@ -76,7 +76,7 @@ class Header extends React.Component {
   }
 
   search(event) {
-    this.props.dispatch(search(event.target.value))
+    this.props.dispatch(searchAsset(event.target.value))
   }
 
   render() {
