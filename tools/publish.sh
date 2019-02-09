@@ -14,4 +14,5 @@ fi
 echo "Deploying to bucket \"$BUCKET\""
 
 npm run build
+aws s3 rm s3://$BUCKET --recursive
 aws s3 sync build/ s3://$BUCKET
